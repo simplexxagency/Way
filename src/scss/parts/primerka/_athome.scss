@@ -1,0 +1,152 @@
+.athome {
+    margin-bottom: 144px;
+
+    &__title {
+        margin-bottom: 54px;
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        font-size: 24px;
+        letter-spacing: 1px;
+        color: #111111;
+        text-transform: uppercase;
+
+        span {
+            color: #ed1d23;
+        }
+    }
+
+    &__list {
+        padding-left: 66px;
+        list-style: none;
+    }
+
+    &__item {
+        margin-bottom: 37px;
+        display: flex;
+        align-items: center;
+    }
+
+    &__number {
+        margin-right: 20px;
+        flex-shrink: 0;
+    }
+
+    &__text {
+        // width: 350px;
+        font-weight: 700;
+        color: #111111;
+
+        &-middle {
+            width: 280px;
+        }
+
+        &-small {
+            width: 115px;
+        }
+    }
+
+    &__img {
+        height: 470px;
+        position: relative;
+
+        &-bottom {
+            width: 435px;
+            position: absolute;
+            top: 7px;
+            left: 14px;
+        }
+
+        &-top {
+            width: 300px;
+            position: absolute;
+            bottom: -9px;
+            right: -8px;
+            z-index: 1;
+        }
+    }
+}
+
+.contact {
+
+    &__primerka {
+        margin-bottom: 126px;
+    }
+}
+
+@media all and (max-width: 991px) {
+    .athome {
+        margin-bottom: 50px;
+
+        &__list {
+            padding-left: 0;
+        }
+    }
+
+    .contact {
+        margin-bottom: 50px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .athome {
+        // margin-bottom: 90px;
+
+        &__list {
+            padding-left: 0;
+        }
+
+        // &__text {
+        //     width: 255px;
+        // }
+
+        &__img {
+            margin-bottom: 40px;
+        }
+    }
+
+    .contact__primerka {
+        margin-bottom: 40px;
+    }
+}
+
+@media all and (max-width: 575px) {
+    .athome {
+
+        &__title {
+            font-size: 20px;
+        }
+
+        
+    }
+
+    .contact__subtitle {
+        font-size: 20px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .athome {
+
+        .container {
+            max-width: 100%;
+        }
+    }
+}
+
+@media all and (max-width: 575px) {
+    .athome {
+
+        .container {
+            max-width: 100%;
+        }
+    }
+}
+
+@media all and (max-width: 320px) {
+    .athome {
+
+        .container {
+            max-width: 100%;
+        }
+    }
+}

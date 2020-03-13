@@ -1,0 +1,174 @@
+.p-show {
+    margin-bottom: 111px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 610px;
+    position: relative;
+    // background: url('../../../img/show-bg.jpg') center no-repeat;
+
+    &__title {
+        margin-bottom: 46px;
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        font-size: 24px;
+        letter-spacing: 1px;
+        color: #111111;
+        text-transform: uppercase;
+
+        span {
+            color: #ed1d23;
+        }
+    }
+
+    &__photo {
+        margin-bottom: 30px;
+    }
+
+    &__wrap {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 51px 68px 65px;
+        height: 427px;
+        width: 920px;
+        margin: 0 auto; 
+        background-color: #fff;
+    }
+
+    &__desc {
+        display: flex;
+    }
+
+    &__part {
+        width: 50%;
+
+        &-left {
+            padding-left: 95px;
+
+            .show {
+
+                &__text {
+                    width: 167px;
+
+                    &-small {
+                        width: 120px;
+                    }
+                }
+            }
+        }
+
+        &__part {
+            padding-left: 20px;
+        }
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 37px;
+    }
+
+    &__box {
+        width: 300px;
+    }
+
+    &__text {
+        // width: 300px;
+        font-weight: 700;
+        color: #111111;
+
+        
+    }
+
+    &__number {
+        flex-shrink: 0;
+        margin-right: 20px;
+    }
+}
+
+@media all and (min-width: 1301px) {
+    .p-show {
+        height: auto;
+
+        &__photo {
+            width: 100%;
+        }
+    }
+}
+
+@media all and (max-width: 1300px) {
+    .p-show {
+        height: auto;
+
+        &__wrap {
+            margin: 0 auto;
+        }
+
+        &__part-left {
+            padding-left: 0;
+        }
+    }
+}
+
+@media all and (max-width: 1199px) {
+    .p-show {
+
+        &__wrap {
+            padding: 22px;
+            width: auto;
+            height: auto;
+        }
+
+        &__part-left {
+            padding-left: 0;
+        }
+    }
+}
+
+@media all and (max-width: 991px) {
+    .p-show {
+        margin-bottom: 50px;
+
+        &__wrap {
+            position: static;
+            transform: none;
+            padding: 30px;
+            height: auto;
+            width: auto;
+        }
+
+        &__desc {
+            flex-wrap: wrap;
+        }
+
+        &__part {
+            width: 100%;
+        }
+
+        &__box {
+            width: 100%;
+        }
+    }
+}
+
+@media all and (max-width: 767px) {
+    .p-show {
+
+        &__wrap {
+            padding: 0 15px;
+            margin: 0 auto;
+        }
+    }
+
+}
+
+@media all and (max-width: 575px) {
+    .p-show {
+
+        &__title {
+            font-size: 20px;
+        }
+    }
+}

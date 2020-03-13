@@ -1,0 +1,99 @@
+.e-testim {
+    margin-bottom: 60px;
+
+    &__box {
+        padding-left: 33px;
+    }
+
+    &__title {
+        margin-bottom: 16px;
+        font-weight: 700;
+        font-family: 'Playfair Display', serif;
+        font-size: 24px;
+        color: #ED1D23;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+    &__item {
+        margin-bottom: 20px;
+        padding: 23px 20px 15px 24px;
+        display: flex;
+        border: 1px solid #ccc;
+
+        &-last{
+            margin-bottom: 28px;
+        }
+    }
+
+    &__avatar {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+    }
+
+    &__card {
+        padding-top: 8px;
+    }
+
+    &__name {
+        margin-bottom: 1px;
+        font-weight: 700;
+        font-size: 18px;
+        color: #111;
+    }
+
+    &__text {
+        color: #111;
+    }
+
+    .testim__stars {
+        margin-bottom: 15px;
+    }
+
+    .testim__star {
+        font-size: 20px;
+    }
+
+    &__btn {
+        display: flex;
+        justify-content: flex-end;
+
+        a {
+            width: auto;
+            height: auto;
+            display: inline-block;
+            font-family: 'tt_normsbold', sans-serif;
+            font-weight: 700;
+            font-size: 12px;
+            color: #ed1d23;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #ed1d23;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+    
+            &:hover {
+                color: #bc0005;
+                border-bottom: 2px solid #bc0005;
+            }
+        }
+    }
+}
+
+@media all and (max-width: 767px) {
+    .e-testim {
+
+        &__box {
+            padding-left: 0;
+        }
+    }
+}
+
+@media all and (max-width: 577px) {
+    .e-testim {
+
+        &__title {
+            font-size: 22px;
+        }
+    }
+}

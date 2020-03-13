@@ -1,0 +1,1255 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www/w3/org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1 initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Event</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap&subset=cyrillic"
+        rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <!-- Slick Slider -->
+    <link rel="stylesheet" type="text/css" href="css/slick/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.min.css" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="e-header nav-fixed">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row d-flex justify-content-between">
+                    <ul class="e-header__logo-brand d-flex justify-content-between align-items-center">
+                        <li class="col col-sm-auto">
+                            <a href="#" class="e-header__logo-link">
+                                <img src="img/logo-header.png" alt="image">
+                            </a>
+                        </li>
+                        <li class="col col-sm-auto d-xl-none d-flex justify-content-end">
+                            <a href="#" class="e-header__btn">Записаться</a>
+                        </li>
+                        <li class="col col-sm-auto e-header__show-menu d-xl-none">
+                            <div class="navbar-icon">
+                                <div class="line-button"></div>
+                                <div class="line-button"></div>
+                                <div class="line-button"></div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="e-header__menu-list d-none d-xl-flex align-items-center col-8">
+                        <li class="e-header__menu-item">
+                            <a href="#">Когда</a>
+                        </li>
+                        <li class="e-header__menu-item">
+                            <a href="#">Где</a>
+                        </li>
+                        <li class="e-header__menu-item">
+                            <a href="#">О чем</a>
+                        </li>
+                        <li class="e-header__menu-item">
+                            <a href="#">Для кого</a>
+                        </li>
+                        <li class="e-header__menu-item">
+                            <a href="#">Стоимость</a>
+                        </li>
+                        <li class="e-header__menu-item">
+                            <a href="#">Отзывы</a>
+                        </li>
+                        <li class="e-header__menu-item">
+                            <a href="#">Спикеры</a>
+                        </li>
+                    </ul>
+                    <div class="d-none d-xl-flex align-items-center">
+                        <a href="#" class="e-header__btn">Записаться</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row row-collapsed">
+                    <ul class="e-header__menu-list menu-list">
+                        <li class="e-header__menu-item">
+                            <a href="#">Когда</a>
+                        </li>
+                        <li class="e-header__menu-item">
+                            <a href="#">Где</a>
+                        </li>
+                        <li class="e-header__menu-item">
+                            <a href="#">О чем</a>
+                        </li>
+                        <li class="e-header__menu-item">
+                            <a href="#">Для кого</a>
+                        </li>
+                        <li class="e-header__menu-item">
+                            <a href="#">Стоимость</a>
+                        </li>
+                        <li class="e-header__menu-item">
+                            <a href="#">Отзывы</a>
+                        </li>
+                        <li class="e-header__menu-item">
+                            <a href="#">Спикеры</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Wrap -->
+    <section class="wrap">
+        <div class="container container-small">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="e-video__sticky">
+                        <div class="e-video__box">
+                            <div class="e-video__box-title">
+                                <p>Название мероприятия в несколько строчек</p>
+                            </div>
+                            <div class="e-video__box-date">
+                                <span>02 фев 2019 в 22:00</span>
+                            </div>
+                            <div class="e-video__box-cost">
+                                <span>от 3 000 руб</span>
+                            </div>
+                            <div class="e-video__box-adress">
+                                <span>Адрес с городом, улицей, домом в две строки</span>
+                            </div>
+                            <div class="e-video__box-btn">
+                                <a href="javascript:void(0)" class="to-place">Занять место</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-9">
+                    <!-- Video -->
+                    <section class="e-video">
+                        <!-- <div class="container container-small"> -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="e-video__container">
+                                    <div class="e-video__container-title">
+                                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit</span>
+                                    </div>
+                                    <div class="e-video__container-video">
+                                        <div class="desc__img-box">
+                                            <img src="img/show-bg.jpg" id="show-bg" alt="img">
+                                        </div>
+                                        <div class="container container-small">
+                                            <div class="row justify-content-center align-items-center">
+                                                <div
+                                                    class="desc__head-wrapper d-flex flex-column justify-content-center align-items-center">
+                                                    <div class="desc__button-play play" id="play">
+
+                                                    </div>
+                                                </div>
+                                                <div class="video-container-wrapper" id="video-container-wrapper0">
+                                                    <!-- <div class="close-pop-up" id="stop-2">
+                                                            <span></span>
+                                                            <span></span>
+                                                        </div> -->
+                                                    <div class="video-container">
+                                                        <div id="video-placeholder" class="player"></div>
+                                                        <!-- <iframe id="video-placeholder" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="280" height="360" src="https://www.youtube.com/embed/26ufc8SCCvw?autoplay=0&amp;controls=0&amp;rel=0&amp;fs=0&amp;showinfo=0&amp;modestbranding=1&amp;enablejsapi=1&amp;origin=http%3A%2F%2Fgl.romura.space&amp;widgetid=1"></iframe> -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="e-video__container-desc">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud
+                                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                    </section>
+                    <!-- End Video -->
+
+                    <!-- When -->
+                    <section class="when">
+                        <!-- <div class="container container-small"> -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="when__box">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="when__title">
+                                                <span>Когда?</span>
+                                            </div>
+                                            <div class="when__data">
+                                                <span>02 фев 2018 в 22:00</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="when__form">
+                                                <form action="POST">
+                                                    <input type="text" class="when__input-name" placeholder="Имя"
+                                                        required>
+                                                    <input type="text" class="phone" name="" id=""
+                                                        placeholder="Номер телефона" required>
+                                                    <input type="submit" class="form__link link-btn"
+                                                        value="Занять место">
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                    </section>
+                    <!-- End When -->
+
+                    <!-- Where -->
+                    <section class="where">
+                        <!-- <div class="container container-small"> -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="where__container">
+                                    <div class="where__title">
+                                        <span>Где?</span>
+                                    </div>
+                                    <div class="where__box">
+                                        <div class="row">
+                                            <div class="col-md-6 col-12">
+                                                <div class="where__img">
+                                                    <img src="img/where-1.png" alt="image">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-12">
+                                                <div class="where__wrap">
+                                                    <div class="where__map" id="where-map">
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                    </section>
+                    <!-- End Where -->
+
+                    <!-- About -->
+                    <section class="about">
+                        <!-- <div class="container container-small"> -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="about__container">
+                                    <div class="about__title">О чем?</div>
+                                    <div class="about__box">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <div class="about__prog">
+                                                    <div class="about__subtitle">
+                                                        <span>Программа</span>
+                                                    </div>
+                                                    <ul class="about__prog-list">
+                                                        <li class="about__prog-item">
+                                                            <span>22:00</span> Ужин
+                                                        </li>
+                                                        <li class="about__prog-item">
+                                                            <span>22:50</span> Конференция 1
+                                                        </li>
+                                                        <li class="about__prog-item">
+                                                            <span>23:00</span> Танцы
+                                                        </li>
+                                                        <li class="about__prog-item">
+                                                            <span>23:50</span> Конференция 2
+                                                        </li>
+                                                        <li class="about__prog-item">
+                                                            <span>24:50</span> Примерка белья
+                                                        </li>
+                                                    </ul>
+                                                    <div class="e-video__box-btn about__prog-btn to-place">
+                                                        <a href="#">Занять место</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <div class="about__wrap">
+                                                    <div class="about__subtitle">
+                                                        <span>Вы получите</span>
+                                                    </div>
+                                                    <ul class="about__list">
+                                                        <li class="about__item">
+                                                            <p><span>Lorem ipsum dolor sit amet consectetur,
+                                                                    adipisicing elit. Et
+                                                                    odit harum</span> temporibus at veniam
+                                                                blanditiis nulla quidem
+                                                                amet.</p>
+                                                        </li>
+                                                        <li class="about__item">
+                                                            <p><span>Lorem, ipsum dolor sit amet consectetur
+                                                                    adipisicing elit.
+                                                                    Veniam magnam quod</span> porro placeat nobis
+                                                                labore
+                                                                consequatur, impedit repudiandae.</p>
+                                                        </li>
+                                                        <li class="about__item">
+                                                            <p><span>Lorem ipsum dolor sit, amet consectetur
+                                                                    adipisicing elit. Quia
+                                                                    recusandae dolorem </span> delectus velit dicta,
+                                                                nihil est
+                                                                nobis.</p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                    </section>
+                    <!-- End About -->
+
+                    <!-- Whom -->
+                    <section class="whom">
+                        <!-- <div class="container container-small"> -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="whom__container">
+                                    <div class="whom__title">
+                                        Для кого?
+                                    </div>
+                                    <div class="whom__box">
+                                        <div class="whom__img-wrap">
+                                            <img src="img/whom-bg.jpg" alt="image">
+                                        </div>
+                                        <div class="whom__wrap">
+                                            <div class="row">
+                                                <div class="col-12 col-md-auto">
+                                                    <div class="whom__box-item">
+                                                        <div class="whom__subtitle">
+                                                            <div class="whom__img">
+                                                                <img src="img/whom-1.png" alt="image">
+                                                            </div>
+                                                            <span>Кому <br> подходит?</span>
+                                                        </div>
+                                                        <ul class="whom__list">
+                                                            <li class="whom__item">
+                                                                Lorem ipsum dolor sit amet consectetur
+                                                            </li>
+                                                            <li class="whom__item">
+                                                                Lorem ipsum dolor sit amet consectetur.
+                                                            </li>
+                                                            <li class="whom__item">
+                                                                Lorem ipsum dolor sit amet consectetur.
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-md-auto">
+                                                    <div class="whom__box-right">
+                                                        <div class="whom__subtitle">
+                                                            <div class="whom__img">
+                                                                <img src="img/whom-2.png" alt="image">
+                                                            </div>
+                                                            <span>Кому <br> не подходит?</span>
+                                                        </div>
+                                                        <ul class="whom__list">
+                                                            <li class="whom__item">
+                                                                Lorem ipsum dolor sit amet consectetur
+                                                            </li>
+                                                            <li class="whom__item">
+                                                                Lorem ipsum dolor sit amet consectetur.
+                                                            </li>
+                                                            <li class="whom__item">
+                                                                Lorem ipsum dolor sit amet consectetur.
+                                                            </li>
+                                                            <li class="whom__item">
+                                                                Lorem ipsum dolor sit amet consectetur
+                                                            </li>
+                                                            <li class="whom__item">
+                                                                Lorem ipsum dolor sit amet consectetur.
+                                                            </li>
+                                                            <li class="whom__item">
+                                                                Lorem ipsum dolor sit amet consectetur.
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                    </section>
+                    <!-- End Whom -->
+
+                    <!-- Cost -->
+                    <section class="cost">
+                        <!-- <div class="container container-small"> -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="cost__container">
+                                    <div class="cost__title">
+                                        <span>Стоимость</span>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <div class="cost__item">
+                                                <div class="cost__name">
+                                                    <span>Оффлайн</span>
+                                                    <span>Оплата сразу</span>
+                                                </div>
+                                                <div class="cost__price">
+                                                    4 200 руб
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="cost__item">
+                                                <div class="cost__name">
+                                                    <span>Онлайн</span>
+                                                    <span>Оплата сразу</span>
+                                                </div>
+                                                <div class="cost__price">
+                                                    3 200 руб
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="cost__item">
+                                                <div class="cost__name cost__name-last">
+                                                    <span>Оффлайн</span>
+                                                    <span>Особые условия</span>
+                                                </div>
+                                                <div class="cost__price">
+                                                    5 200 руб
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="cost__box">
+                                                <div class="cost__reservation">
+                                                    <div class="cost__subtitle">
+                                                        Предварительное бронирование
+                                                    </div>
+                                                </div>
+                                                <div class="cost__form">
+                                                    <form action="" method="post">
+                                                        <div class="row">
+                                                            <div class="col-lg-4">
+                                                                <div class="cost__input">
+                                                                    <input type="text" placeholder="Имя" required>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4">
+                                                                <div class="cost__input">
+                                                                    <input type="text" class="phone"
+                                                                        placeholder="Номер телефона" required>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4">
+                                                                <div class="cost__input">
+                                                                    <input type="text" placeholder="E-mail" required>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 d-flex justify-content-end">
+                                                            <input type="submit" class="form__link link-btn"
+                                                                value="Занять место">
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                    </section>
+                    <!-- End Cost -->
+
+                    <!-- Who -->
+                    <section class="who">
+                        <!-- <div class="container container-small"> -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="who__box">
+                                    <div class="who__title">
+                                        <span>Кто проводит</span>
+                                    </div>
+                                    <div class="who__container">
+                                        <div class="who__item">
+                                            <div class="row">
+                                                <div class="col-lg-3">
+                                                    <div class="who__img">
+                                                        <img src="img/who-1.jpg" alt="image">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-9">
+                                                    <div class="who__desc">
+                                                        <div class="who__subtitle">
+                                                            Дженнифер Лоуренс
+                                                        </div>
+                                                        <div class="who__text">
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                                elit, sed do eius
+                                                                mod
+                                                                tempor
+                                                                incididunt ut labore et dolore magna aliqua. Ut enim
+                                                                ad minim
+                                                                veniam,
+                                                                quis
+                                                                nostrud exercitation ullamco ex ea commodo
+                                                                consequat.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                        <div class="who__item">
+                                            <div class="row">
+                                                <div class="col-lg-3">
+                                                    <div class="who__img">
+                                                        <img src="img/who-2.jpg" alt="image">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-9">
+                                                    <div class="who__desc">
+                                                        <div class="who__subtitle">
+                                                            Николь Кидман
+                                                        </div>
+                                                        <div class="who__text">
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                                elit, sed do eius
+                                                                mod
+                                                                tempor
+                                                                incididunt ut labore et dolore magna aliqua. Ut enim
+                                                                ad minim
+                                                                veniam,
+                                                                quis
+                                                                nostrud laboris nisi ut aliquip ex ea commodo
+                                                                consequat.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                    </section>
+                    <!-- End Who -->
+
+                    <!-- Video Testimonials -->
+                    <section class="v-testim">
+                        <!-- <div class="container container-small"> -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="v-testim__box">
+                                    <div class="v-testim__title">
+                                        Видео-отзывы
+                                    </div>
+                                    <div class="v-testim__slider row">
+                                        <div class="v-testim__item col-auto">
+                                            <a data-fancybox href="https://www.youtube.com/watch?v=26ufc8SCCvw">
+                                                <div class="v-testim__card">
+                                                    <div class="desc__img-box">
+                                                        <img src="img/vid-bg.png" id="show-bg-1" alt="img">
+                                                    </div>
+                                                    <div class="container container-small">
+                                                        <div class="row justify-content-center align-items-center">
+                                                            <div
+                                                                class="desc__head-wrapper d-flex flex-column justify-content-center align-items-center">
+                                                                <div class="desc__button-play play">
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="video-container-wrapper"
+                                                                id="video-container-wrapper1">
+                                                                <!-- <div class="close-pop-up" id="stop-1">
+                                                                        <span></span>
+                                                                        <span></span>
+                                                                    </div> -->
+                                                                <!-- <a data-fancybox href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"> -->
+                                                                <div class="video-container">
+                                                                    <div class="player"></div>
+
+                                                                </div>
+                                                                <!-- </a> -->
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+
+                                        </div>
+                                        <div class="v-testim__item col-auto">
+                                            <a data-fancybox href="https://www.youtube.com/watch?v=26ufc8SCCvw">
+                                                <div class="v-testim__card">
+                                                    <div class="desc__img-box">
+                                                        <img src="img/vid-bg.png" id="show-bg" alt="img">
+                                                    </div>
+                                                    <div class="container container-small">
+                                                        <div class="row justify-content-center align-items-center">
+                                                            <div
+                                                                class="desc__head-wrapper d-flex flex-column justify-content-center align-items-center">
+                                                                <div class="desc__button-play play">
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="video-container-wrapper"
+                                                                id="video-container-wrapper2">
+                                                                <!-- <div class="close-pop-up" id="stop-2">
+                                                        <span></span>
+                                                        <span></span>
+                                                    </div> -->
+                                                                <div class="video-container">
+                                                                    <div class="player"></div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="v-testim__item col-auto">
+                                            <a data-fancybox href="https://www.youtube.com/watch?v=26ufc8SCCvw">
+                                                <div class="v-testim__card">
+                                                    <div class="desc__img-box">
+                                                        <img src="img/vid-bg.png" id="show-bg" alt="img">
+                                                    </div>
+                                                    <div class="container container-small">
+                                                        <div class="row justify-content-center align-items-center">
+                                                            <div
+                                                                class="desc__head-wrapper d-flex flex-column justify-content-center align-items-center">
+                                                                <div class="desc__button-play play">
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="video-container-wrapper"
+                                                                id="video-container-wrapper3">
+                                                                <!-- <div class="close-pop-up" id="stop-2">
+                                                        <span></span>
+                                                        <span></span>
+                                                    </div> -->
+                                                                <div class="video-container">
+                                                                    <div class="player"></div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="v-testim__item col-auto">
+                                            <a data-fancybox href="https://www.youtube.com/watch?v=26ufc8SCCvw">
+                                                <div class="v-testim__card">
+                                                    <div class="desc__img-box">
+                                                        <img src="img/vid-bg.png" id="show-bg" alt="img">
+                                                    </div>
+                                                    <div class="container container-small">
+                                                        <div class="row justify-content-center align-items-center">
+                                                            <div
+                                                                class="desc__head-wrapper d-flex flex-column justify-content-center align-items-center">
+                                                                <div class="desc__button-play play">
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="video-container-wrapper"
+                                                                id="video-container-wrapper4">
+                                                                <!-- <div class="close-pop-up" id="stop-2">
+                                                        <span></span>
+                                                        <span></span>
+                                                    </div> -->
+                                                                <div class="video-container">
+                                                                    <div class="player"></div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="v-testim__item col-auto">
+                                            <a data-fancybox href="https://www.youtube.com/watch?v=26ufc8SCCvw">
+                                                <div class="v-testim__card">
+                                                    <div class="desc__img-box">
+                                                        <img src="img/vid-bg.png" id="show-bg" alt="img">
+                                                    </div>
+                                                    <div class="container container-small">
+                                                        <div class="row justify-content-center align-items-center">
+                                                            <div
+                                                                class="desc__head-wrapper d-flex flex-column justify-content-center align-items-center">
+                                                                <div class="desc__button-play play">
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="video-container-wrapper"
+                                                                id="video-container-wrapper5">
+                                                                <!-- <div class="close-pop-up" id="stop-2">
+                                                        <span></span>
+                                                        <span></span>
+                                                    </div> -->
+                                                                <div class="video-container">
+                                                                    <div class="player"></div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="v-testim__item col-auto">
+                                            <a data-fancybox href="https://www.youtube.com/watch?v=26ufc8SCCvw">
+                                                <div class="v-testim__card">
+                                                    <div class="desc__img-box">
+                                                        <img src="img/vid-bg.png" id="show-bg" alt="img">
+                                                    </div>
+                                                    <div class="container container-small">
+                                                        <div class="row justify-content-center align-items-center">
+                                                            <div
+                                                                class="desc__head-wrapper d-flex flex-column justify-content-center align-items-center">
+                                                                <div class="desc__button-play play">
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="video-container-wrapper"
+                                                                id="video-container-wrapper6">
+                                                                <!-- <div class="close-pop-up" id="stop-2">
+                                                        <span></span>
+                                                        <span></span>
+                                                    </div> -->
+                                                                <div class="video-container">
+                                                                    <div class="player"></div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="v-testim__container"></div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                    </section>
+                    <!-- End Video Testimonials -->
+
+                    <!-- e-Testimonials -->
+                    <section class="e-testim">
+                        <!-- <div class="container container-small"> -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="e-testim__box">
+                                    <div class="e-testim__title">
+                                        Отзывы на сайте
+                                    </div>
+                                    <div class="e-testim__item">
+                                        <div class="row">
+                                            <div class="col-sm-2">
+                                                <div class="e-testim__avatar">
+                                                    <img src="img/testim.png" alt="image">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-10">
+                                                <div class="e-testim__card">
+                                                    <div class="e-testim__name">
+                                                        Довольный клиент
+                                                    </div>
+                                                    <div class="testim__stars">
+                                                        <ion-icon name="star-outline"
+                                                            class="testim__star-red testim__star"></ion-icon>
+                                                        <ion-icon name="star-outline"
+                                                            class="testim__star-red testim__star"></ion-icon>
+                                                        <ion-icon name="star-outline"
+                                                            class="testim__star-red testim__star"></ion-icon>
+                                                        <ion-icon name="star-outline"
+                                                            class="testim__star testim__star-red"></ion-icon>
+                                                        <ion-icon name="star-outline" class="testim__star">
+                                                        </ion-icon>
+                                                    </div>
+                                                    <div class="e-testim__text">
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                                            sed do eius mod
+                                                            tempor incididunt ut labore et dolore magna aliqua. Ut
+                                                            enim ad minim veniam,
+                                                            quis nostrud exercitation ullamco laboris nisi ut
+                                                            aliquip ex ea commodo
+                                                            consequat. </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="e-testim__item">
+                                        <div class="row">
+                                            <div class="col-sm-2">
+                                                <div class="e-testim__avatar">
+                                                    <img src="img/testim.png" alt="image">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-10">
+                                                <div class="e-testim__card">
+                                                    <div class="e-testim__name">
+                                                        Довольный клиент
+                                                    </div>
+                                                    <div class="testim__stars">
+                                                        <ion-icon name="star-outline"
+                                                            class="testim__star-red testim__star"></ion-icon>
+                                                        <ion-icon name="star-outline"
+                                                            class="testim__star-red testim__star"></ion-icon>
+                                                        <ion-icon name="star-outline"
+                                                            class="testim__star-red testim__star"></ion-icon>
+                                                        <ion-icon name="star-outline"
+                                                            class="testim__star testim__star-red"></ion-icon>
+                                                        <ion-icon name="star-outline" class="testim__star">
+                                                        </ion-icon>
+                                                    </div>
+                                                    <div class="e-testim__text">
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                                            sed do eius mod
+                                                            tempor incididunt ut labore et dolore magna aliqua. Ut
+                                                            enim ad minim veniam,
+                                                            quis nostrud exercitation ullamco laboris nisi ut
+                                                            aliquip ex ea commodo
+                                                            consequat. </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="e-testim__item e-testim__item-last">
+                                        <div class="row">
+                                            <div class="col-sm-2">
+                                                <div class="e-testim__avatar">
+                                                    <img src="img/testim.png" alt="image">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-10">
+                                                <div class="e-testim__card">
+                                                    <div class="e-testim__name">
+                                                        Довольный клиент
+                                                    </div>
+                                                    <div class="testim__stars">
+                                                        <ion-icon name="star-outline"
+                                                            class="testim__star-red testim__star"></ion-icon>
+                                                        <ion-icon name="star-outline"
+                                                            class="testim__star-red testim__star"></ion-icon>
+                                                        <ion-icon name="star-outline"
+                                                            class="testim__star-red testim__star"></ion-icon>
+                                                        <ion-icon name="star-outline"
+                                                            class="testim__star testim__star-red"></ion-icon>
+                                                        <ion-icon name="star-outline" class="testim__star">
+                                                        </ion-icon>
+                                                    </div>
+                                                    <div class="e-testim__text">
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                                            sed do eius mod
+                                                            tempor incididunt ut labore et dolore magna aliqua. Ut
+                                                            enim ad minim veniam,
+                                                            quis nostrud exercitation ullamco laboris nisi ut
+                                                            aliquip ex ea commodo
+                                                            consequat. </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="e-testim__btn">
+                                        <a href="#">Показать еще</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                    </section>
+                    <!-- End e-Testimonials -->
+
+                    <!-- Company -->
+                    <section class="company">
+                        <!-- <div class="container container-small"> -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="company__box">
+                                    <div class="company__title">
+                                        О компании
+                                    </div>
+                                    <div class="company__desc">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor incididunt ut
+                                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                            exercitation ullamco
+                                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                                            in reprehenderit in
+                                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                            sint occaecat
+                                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                                            id est laborum</p>
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                            accusantium doloremque
+                                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                                            veritatis et quasi
+                                            architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
+                                            quia voluptas sit
+                                            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos.
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                    </section>
+                    <!-- End Company -->
+
+                    <!-- Contact -->
+                    <section class="e-contact">
+                        <!-- <div class="container container-small"> -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="e-contact__box">
+                                    <div class="contact__contact">
+                                        <div class="contact__desc">
+                                            <div class="contact__header">
+                                                <h3 class="contact__subtitle">
+                                                    Контакты
+                                                </h3>
+                                                <div class="contact__nav">
+                                                    <ul class="contact__list">
+                                                        <li class="contact__item">
+                                                            <a href="javascript:void(0);" class="contact__link active">
+                                                                Москва
+                                                            </a>
+                                                        </li>
+                                                        <li class="contact__item">
+                                                            <a href="javascript:void(0);" class="contact__link">
+                                                                Санкт-Петербург
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="contact__text">
+                                                <div class="contact__side">
+                                                    <div class="contact__phone">
+                                                        <span class="contact__letter">Т:</span>
+                                                        +7(495)799-08-96
+                                                    </div>
+                                                    <div class="contact__email">
+                                                        <span class="contact__letter">E:</span>
+                                                        info@silk-way.ru
+                                                    </div>
+                                                    <div class="contact__routine">
+                                                        <span class="contact__letter contact__letter-w">W:</span>
+                                                        пн-пт: с 10:00 до 19:00
+                                                    </div>
+                                                </div>
+                                                <div class="contact__side contact__side-right">
+                                                    <div class="contact__address">
+                                                        <span class="contact__letter contact__letter-margin">A:</span>
+                                                        Россия,115088,г.Москва, Шарикоподшипниковская,д.13, с.2,3
+                                                        этаж, офис 11
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                    </section>
+                    <!-- End Contact -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container container-small">
+            <div class="row">
+                <div class="col-md-6 col-lg-3 col-12">
+                    <div class="footer__cataloge">
+                        <h4 class="footer__title">Каталог</h4>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Антицеллюлитное бельё
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Корректирующее бельё
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Моделирующее бельё
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Мужское корректирующее бельё
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Распродажа корректирующего белья
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-12">
+                    <div class="footer__menu">
+                        <h4 class="footer__title">Меню</h4>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Каталог
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Примерка на дому
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Мероприятия
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Школа стройности
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Блог
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Гарантии и возврат
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Доставка и оплата
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Контакты
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-12">
+                    <div class="footer__contact">
+                        <h4 class="footer__title">Контакты</h4>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="#" class="footer__link footer__link-flex">
+                                    <span class="footer__letter">A:</span> <span
+                                        class="footer__address">Россия,115088,г.Москва, Шарикоподшипниковская,д13, с.2,
+                                        3 этаж,офис</span>
+
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="tel:+7(495)799-08-96" class="footer__link">
+                                    <span class="footer__letter">T:</span> +7(495)799-08-96
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="mailto:info@silk-way.ru" class="footer__link">
+                                    <span class="footer__letter">E:</span> info@silk-way.ru
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="javascript:void(0);" class="footer__link">
+                                    <span class="footer__letter">W:</span> пн-пт: с 10:00 до 19:00
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-12">
+                    <div class="footer__mailing">
+                        <h4 class="footer__title">Рассылка</h4>
+                        <p class="footer__text">
+                            Подпишитесь на новости и акции Silkway будьте в курсе новинок и спецпредложений!
+                        </p>
+                        <input type="email" name="" id="" placeholder="E-mail">
+                        <a href="#" class="footer__btn link-btn">Подписаться</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="footer__copyrights">
+                        <span>&copy; Copyrights 2019</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- End Footer -->
+
+    <!-- Popup Search -->
+    <div class="pop-up-place pop-up-mark content passive">
+        <div class="cover"></div>
+        <div class="pop-up col-10 col-lg-8">
+
+            <div class="row justify-content-center">
+                <div class="col-12 d-flex justify-content-center">
+                    <div class="search">
+
+                        <div class="pop-up__form">
+                            <div class="input-block d-flex align-items-center justify-content-between">
+
+                                <div class="wrapper-close-pop-up">
+                                    <div class="close-pop-up">
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form__title">
+                                <span>Забронировать</span> место
+                            </div>
+                            <form action="POST">
+                                <input type="text" name="" id="" placeholder="Имя" required>
+                                <input type="email" name="" id="" placeholder="E-mail" required>
+                                <input type="text" class="phone" name="" id="" placeholder="Номер телефона" required>
+                                <div class="form__link">
+                                    <input type="submit" class="link-btn" value="Занять место">
+                                </div>
+
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- End Popup Search -->
+
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!-- YouTube -->
+    <script src="https://www.youtube.com/iframe_api"></script>
+
+    <!-- Slick slider -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+
+    <!-- Mask input -->
+    <script src="js/jquery.maskedinput.min.js"></script>
+
+    <!-- Ion icons -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9djH7vcImqp4yCqVuAI1ZgWowi3UuVQU&callback=initMap"
+        async defer>
+        </script>
+
+    <!-- Script -->
+
+    <script src="js/script.js"></script>
+    <!-- <script src="js/video.js"></script> -->
+    <script src="js/video-event.js"></script>
+
+
+
+
+
+</body>
+
+</html>

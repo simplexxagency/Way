@@ -1,0 +1,59 @@
+.content {
+    padding-top: 210px;
+    color: #111;
+
+    .h2, h2 {
+        margin-bottom: 30px;
+        color: #111;
+        font: 800 normal 40px/1.2 'Playfair Display', serif;
+    }
+
+    .h3 {
+        font-size: 1.75rem;
+    }
+
+    a {
+        font-family: 'tt_normsbold', sans-serif;
+        color: #ed1d23;
+        border-bottom: 1px solid #ed1d23;
+
+        &:hover {
+            color: #bc0005;
+            border-bottom: 1px solid #bc0005;
+        }
+    }
+}
+
+@media all and (max-width: 1199px) {
+    .content {
+        padding-top: 100px;
+    }
+}
+
+@media all and (max-width: 991px) {
+    .content {
+
+        h2, .h2 {
+            font-size: 36px;
+        }
+    }
+}
+
+@media all and (max-width: 767px) {
+    .content {
+
+        h2, .h2 {
+            font-size: 30px;
+        }
+    }
+
+}
+
+@media all and (max-width: 567px) {
+    .content {
+
+        h2, .h2 {
+            font-size: 28px;
+        }
+    }
+}

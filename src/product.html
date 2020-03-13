@@ -1,0 +1,1084 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www/w3/org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1 initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Product</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap&subset=cyrillic"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <!-- Slick Slider -->
+    <link rel="stylesheet" type="text/css" href="css/slick/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.min.css" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="nav-fixed first-state">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row row-visible">
+                    <div class="d-flex align-items-center">
+                        <nav class="nav-social-list d-none d-xl-flex">
+                            <a href="#">Instagram</a>
+                            <a href="#">YouTube</a>
+                            <a href="#">Facebook</a>
+                        </nav>
+                        <ul class="to-check d-none  d-xl-flex">
+                            <li class="call-item d-flex align-items-center">
+                                <div class="d-flex align-items-center city__moscow">
+                                    <img src="img/placeholder-header.svg" alt="image">
+                                </div>
+                                <div class="city underline city__hover">Москва</div>
+                                <img src="img/arrow.svg" alt="image" class="arrow">
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <ul class="logo-brand">
+                        <li class="col col-sm-auto col-xl-12"><a href="#">
+                                <img src="img/logo-header.png" alt="image" class="d-none">
+                                <img class="logo__brand" src="img/logo-header.png" alt="logo">
+                            </a></li>
+                        <li class="col  col-sm-auto to-check d-xl-none">
+                            <span><img src="img/placeholder-header.svg" alt="image"></span>
+                        </li>
+                        <li class="col col-sm-auto  to-search d-xl-none">
+                            <span><img src="img/search-header.svg" alt="image"></span>
+                        </li>
+                        <li class="col col-sm-auto  to-cart to-cart-mobile d-xl-none"><a href="#">
+                                <img src="img/cart.svg" alt="image">
+                            </a></li>
+                        <li class="col col-sm-auto  to-call to-call-mobile d-xl-none"><a href="#">
+                                <img src="img/call-header.svg" alt="image">
+                            </a></li>
+
+                        <li class="col col-sm-auto  to-show-menu d-xl-none">
+                            <div class="navbar-icon">
+                                <div class="line-button"></div>
+                                <div class="line-button"></div>
+                                <div class="line-button"></div>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="d-flex align-items-center">
+                        <div class="to-call  d-none  d-xl-flex">
+                            <div class="call-item d-flex align-items-center phone__tel">
+                                <img src="img/call-header.svg" alt="image">
+                                <div class="phone"><a href="tel:79851141569">+7 (985) 114-15-69</a></div>
+                                <img src="img/arrow.svg" alt="image" class="arrow">
+                            </div>
+
+                        </div>
+                        <ul class="search d-none d-xl-flex">
+                            <li class="input-block d-flex align-items-center justify-content-between">
+                                <div
+                                    class="button-search d-flex align-items-center justify-content-center to-search to-search__btn">
+                                    <span><img src="img/search-header.svg" alt="image"></span>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="align-items-center d-none d-xl-flex">
+                            <a href="#" class="d-flex align-items-center cart">
+                                <img src="img/cart.svg" alt="image">
+                                <span>0 товаров</span></a>
+                        </div>
+                    </div>
+
+
+                    <ul class="menu-list d-none d-xl-flex col-12 menu__main">
+                        <li class="menu-item menu__main-item"><a class="menu__main-link">Каталог<img
+                                    src="img/sub-menu.svg" alt="image"></a>
+                            <div class="sub-menu-list-wrapper">
+                                <ul class="sub-menu-list">
+                                    <li class="sub-menu-item menu__subitem"><a>Катeгория 01<img src="img/sub-menu.svg"
+                                                alt="image"></a>
+                                        <div class="sub-menu-list-wrapper  sub-sub">
+                                            <ul class="sub-menu-list">
+                                                <li class="sub-sub-menu-item"><a href="#">Подкатeгория 01</a></li>
+                                                <li class="sub-sub-menu-item"><a href="#">Подкатeгория 02</a></li>
+                                                <li class="sub-sub-menu-item"><a href="#">Подкатeгория 03</a></li>
+                                                <li class="sub-sub-menu-item"><a href="#">Подкатeгория 04</a></li>
+                                                <li class="sub-sub-menu-item"><a href="#">Подкатeгория 05</a></li>
+                                                <li class="sub-sub-menu-item"><a href="#">Подкатeгория 06</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="sub-menu-item"><a href="#">Катeгория 02</a></li>
+                                    <li class="sub-menu-item"><a href="#">Катeгория 03</a></li>
+                                    <li class="sub-menu-item"><a href="#">Катeгория 04</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu-item menu__main-item"><a class="menu__main-link" href="#">Примерка</a></li>
+                        <li class="menu-item menu__main-item"><a class="menu__main-link" href="#">Мероприятия</a></li>
+                        <li class="menu-item menu__main-item"><a class="menu__main-link" href="#">школа стройности</a>
+                        </li>
+                        <li class="menu-item menu__main-item"><a class="menu__main-link" href="#">блог</a></li>
+                        <li class="menu-item menu__main-item"><a class="menu__main-link" href="#">гарантия и возврат</a>
+                        </li>
+                        <li class="menu-item menu__main-item"><a class="menu__main-link" href="#">доставка и оплата</a>
+                        </li>
+                        <li class="menu-item menu__main-item"><a class="menu__main-link" href="#">контакты</a></li>
+                    </ul>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row row-collapsed">
+                    <ul class="menu-list scroll-box">
+                        <li class="menu-item menu__main-item"><a>Каталог<img src="img/sub-menu.svg" alt="image"></a>
+                            <div class="sub-menu-list-wrapper">
+                                <ul class="sub-menu-list">
+                                    <li class="sub-menu-item"><a>Катeгория 01<img src="img/sub-menu.svg"
+                                                alt="image"></a>
+                                        <div class="sub-menu-list-wrapper  sub-sub">
+                                            <ul class="sub-menu-list">
+                                                <li class="sub-sub-menu-item"><a href="#">Подкатeгория 01</a></li>
+                                                <li class="sub-sub-menu-item"><a href="#">Подкатeгория 02</a></li>
+                                                <li class="sub-sub-menu-item"><a href="#">Подкатeгория 03</a></li>
+                                                <li class="sub-sub-menu-item"><a href="#">Подкатeгория 04</a></li>
+                                                <li class="sub-sub-menu-item"><a href="#">Подкатeгория 05</a></li>
+                                                <li class="sub-sub-menu-item"><a href="#">Подкатeгория 06</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="sub-menu-item"><a href="#">Катeгория 02</a></li>
+                                    <li class="sub-menu-item"><a href="#">Катeгория 03</a></li>
+                                    <li class="sub-menu-item"><a href="#">Катeгория 04</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu-item"><a href="#">Примерка</a></li>
+                        <li class="menu-item"><a href="#">Мероприятия</a></li>
+                        <li class="menu-item"><a href="#">школа стройности</a></li>
+                        <li class="menu-item"><a href="#">блог</a></li>
+                        <li class="menu-item"><a href="#">гарантия и возврат</a></li>
+                        <li class="menu-item"><a href="#">доставка и оплата</a></li>
+                        <li class="menu-item"><a href="#">контакты</a></li>
+                    </ul>
+
+                    <ul class="check-list">
+                        <li class="check-item">
+                            <p>Выберите Ваш город</p>
+                        </li>
+                        <li class="call-item">
+                            <ul class="city-list row scroll-box">
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="call-list">
+                        <li class="call-item"><a href="tel:79851141569">+7 (985) 114-15-69</a></li>
+                        <li class="call-item"><a href="tel:79851141569">+7 (985) 114-15-69</a></li>
+                        <li class="call-item"><a href="tel:79851141569">+7 (985) 114-15-69</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- End Header -->
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumbs__wrapper-product">
+        <div class="container-small container">
+            <div class="row">
+                <div class="col">
+                    <nav>
+                        <ul class="breadcrumbs ">
+                            <li class="breadcrumbs-item"><a href="main.html">Главная</a></li>
+                            <li class="breadcrumbs-item"><a href="javascript:void(0)">Каталог</a></li>
+                            <li class="breadcrumbs-item"><a href="javascript:void(0)">Профессиональное моделирующее
+                                    белье</a></li>
+                            <li class="breadcrumbs-item active">Название товара</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- End Breadcrumb -->
+
+    <!-- Card -->
+    <section class="d-card">
+        <div class="container-small container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="d-card__slider-top">
+                        <div class="d-card__top-item">
+                            <a data-fancybox="gallery" href="img/card-top.jpg"><img src="img/card-top.jpg"
+                                    alt="card"></a>
+
+                        </div>
+                        <div class="d-card__top-item">
+                            <a data-fancybox="gallery" href="img/card-top.jpg"><img src="img/card-top.jpg"
+                                    alt="card"></a>
+
+                        </div>
+                        <div class="d-card__top-item">
+                            <a data-fancybox="gallery" href="img/card-top.jpg"><img src="img/card-top.jpg"
+                                    alt="card"></a>
+                        </div>
+                    </div>
+                    <div class="d-card__slider-bottom">
+                        <div class="d-card__bottom-item">
+                            <img src="img/card-bottom.jpg" alt="card-bottom">
+                        </div>
+                        <div class="d-card__bottom-item">
+                            <img src="img/card-bottom.jpg" alt="card-bottom">
+                        </div>
+                        <div class="d-card__bottom-item">
+                            <img src="img/card-bottom.jpg" alt="card-bottom">
+                        </div>
+                        <div class="d-card__bottom-item">
+                            <img src="img/card-bottom.jpg" alt="card-bottom">
+                        </div>
+                        <div class="d-card__bottom-item">
+                            <img src="img/card-bottom.jpg" alt="card-bottom">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="d-card__desc">
+                        <div class="d-card__article">
+                            Артикул 201491
+                        </div>
+                        <div class="d-card__title">
+                            Корректирующие боди (черное)
+                        </div>
+                        <div class="d-card__price">
+                            5 990 руб
+                        </div>
+                        <div class="d-card__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates in esse nam saepe
+                            molestias veniam ea omnis aspernatur, et ipsa Lorem ipsum dolor sit amet.
+                        </div>
+                        <div class="d-card__wrap">
+                            <div class="d-card__colors">
+                                <h4 class="d-card__subtitle">
+                                    Цвет
+                                </h4>
+                                <div class="d-card__colors-items">
+                                    <div class="d-card__colors-item d-card__colors-item-grey">
+                                        <span></span>
+                                    </div>
+                                    <div class="d-card__colors-item active d-card__colors-item-black">
+                                        <span></span>
+                                    </div>
+                                    <div class="d-card__colors-item d-card__colors-item-brown">
+                                        <span></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="d-card__sizetable">
+                                <h4 class="d-card__subtitle">
+                                    Таблица размеров
+                                </h4>
+                                <span>Комбидрессы</span>
+                            </div>
+                        </div>
+                        <div class="d-card__wrap d-card__wrap-bottom">
+                            <div class="d-card__size">
+                                <h4 class="d-card__subtitle">
+                                    Размер
+                                </h4>
+                                <div class="d-card__size-items">
+                                    <div class="d-card__size-item">56</div>
+                                    <div class="d-card__size-item">70</div>
+                                    <div class="d-card__size-item">72</div>
+                                    <div class="d-card__size-item active">74</div>
+                                    <div class="d-card__size-item">76</div>
+                                    <div class="d-card__size-item">78</div>
+                                    <div class="d-card__size-item">80</div>
+                                </div>
+                            </div>
+                            <div class="d-card__quantity">
+                                <h4 class="d-card__subtitle">
+                                    Кол-во
+                                </h4>
+                                <div class="d-card__counter">
+                                    <button class='down_count d-counter__btn' title='Down'>-</button>
+                                    <input class='d-counter' type="text" placeholder="value..." value='2' />
+                                    <button class='up_count d-counter__btn' title='Up'>+</button>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-card__btns">
+                            <a href="javascript:void(0)" class="d-card__btn d-card__btn-red">Купить</a>
+                            <a href="javascript:void(0)" class="d-card__btn d-card__btn-simple">В рассрочку</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Card -->
+
+    <!-- Description -->
+    <section class="desc">
+        <div class="container-small container">
+            <div class="row">
+                <div class="col">
+                    <div class="desc__tabs tabs" id="skills">
+                        <div class="desc__box">
+                            <div class="desc__nav" id="desc__nav-scroll">
+                                <div class="desc__nav-item js-tab-trigger active" data-tab="1">
+                                    <span>Описание</span>
+
+                                </div>
+                                <div class="desc__nav-item js-tab-trigger" data-tab="2">
+                                    <span>Характеристики</span>
+
+
+                                </div>
+                                <div class="desc__nav-item js-tab-trigger" data-tab="3">
+                                    <span>Комментарии</span>
+
+                                </div>
+                                <div class="desc__nav-item js-tab-trigger" data-tab="4">
+                                    <span>Видео-обзор</span>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="desc__content">
+                            <div class="desc__content-item js-tab-content active" data-tab="1">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quaerat veniam odit
+                                dicta facilis hic quae, temporibus illum reiciendis incidunt voluptas minima magni
+                                officiis fugiat et eius id. Assumenda doloremque labore laborum et quam nihil deleniti
+                                mollitia tempora aliquam reiciendis. Optio, consequatur deserunt! Exercitationem,
+                                repellendus? Earum magni vero deserunt ex aspernatur explicabo, soluta sequi magnam quo
+                                illum? Officia modi minima, dolor tenetur iure nihil iusto impedit molestias eligendi
+                                consectetur accusantium hic, perspiciatis omnis, corporis aliquid sint! Omnis obcaecati
+                                itaque ipsa! Quod cum voluptatem itaque laboriosam dolorum totam delectus, vero incidunt
+                                ipsa dolore doloribus unde harum assumenda quae ad nisi. Deleniti placeat itaque enim!
+                                Dolores fuga deserunt corporis tenetur eum odio nemo perferendis! Tempore quos ut
+                                perspiciatis nobis soluta asperiores? Non doloremque sequi voluptate fugiat id saepe
+                                aspernatur, excepturi similique fuga necessitatibus a enim debitis adipisci. Recusandae,
+                                quo repellat consectetur corrupti velit nulla sint molestiae vel unde numquam eligendi
+                                expedita. Illo vero neque quasi laboriosam voluptas tempora vel hic. Esse beatae ullam
+
+                            </div>
+                            <div class="desc__content-item js-tab-content" data-tab="2">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet itaque suscipit pariatur?
+                                Nemo cum ad fugiat omnis expedita praesentium, ratione voluptates provident excepturi
+                                dolores. Ab expedita sunt excepturi dolore quas enim magni hic soluta perspiciatis
+                                cupiditate, dignissimos corrupti ipsum dolorum, consequatur laudantium illum reiciendis
+                                beatae consectetur neque aspernatur repudiandae autem dolorem. Sequi ducimus culpa
+                                doloremque minima ipsam excepturi animi debitis eum voluptas repellat id, laborum sint
+                                minus quis beatae maxime eaque error saepe perferendis! Quidem maiores illo asperiores
+                                harum quod eveniet reprehenderit. Laudantium recusandae, labore libero, deleniti
+                                sapiente soluta neque repudiandae, expedita eaque in quibusdam consequatur deserunt!
+                                Quam doloribus quis provident enim, architecto sunt odio facere ex dignissimos sapiente
+                                modi assumenda quidem animi id excepturi, consequatur accusamus culpa aut cumque a
+                                consectetur aliquam exercitationem corrupti inventore? Fugit voluptates eaque
+                                praesentium corrupti quisquam, vel quo dolore debitis a nihil accusamus doloribus harum
+                                mollitia? Ut dolorem laudantium ea ad ratione earum corporis et nemo voluptatem mollitia
+                                repudiandae facilis a magnam adipisci esse, incidunt vel. Cupiditate consectetur nihil
+
+                            </div>
+                            <div class="desc__content-item js-tab-content" data-tab="3">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi dolores iusto
+                                consequuntur officia non nam perferendis vel. Ratione architecto illum voluptate qui
+                                dolores officiis consectetur labore id enim! Earum porro excepturi repudiandae officiis
+                                sapiente rem molestias. Pariatur omnis, distinctio eius voluptatibus molestias ut
+                                possimus laboriosam sit assumenda eveniet dolorum. Ad ipsam ipsa soluta earum quaerat
+                                reiciendis tempore sunt nam quos, aliquid pariatur eaque recusandae in, fuga aut autem
+                                similique placeat, exercitationem dolor illum expedita voluptate. Distinctio provident
+                                laborum perferendis quasi quae nostrum eaque minus voluptatem rem repellendus, officia
+                                iste quisquam impedit repellat, quas quos velit a. Nostrum in dolorem natus quo
+                                veritatis pariatur beatae, officiis similique doloribus vero dolor debitis tempore, odit
+                                adipisci deserunt maxime ipsam a minus, harum omnis. Porro cum omnis dolorum assumenda
+                                dolor animi deserunt doloremque labore. Officia voluptatem quas vero error ducimus
+                                laborum debitis dolorem. Iusto iste, voluptas iure tempore aut commodi veniam provident
+                                quisquam repellat? Eligendi laboriosam reiciendis odit voluptatem quis labore explicabo
+                                fuga eaque alias atque magni neque, repellat, molestias quisquam blanditiis a illo amet
+                                dolorem rerum similique sint. Possimus sint deleniti quas a laboriosam explicabo ea
+                                officia molestiae! Quidem autem aspernatur odit, odio maxime aut asperiores ipsa nostrum
+                                corrupti perferendis deserunt officiis doloribus tempore quasi, consectetur quam
+                                explicabo voluptates molestias nemo exercitationem soluta, esse ea quo earum?
+
+                            </div>
+                            <div class="desc__content-item js-tab-content" data-tab="4">
+                                <div class="desc__img-box">
+                                    <img src="img/show-bg.jpg" id="show-bg" alt="img">
+                                </div>
+                                <div class="container container-small">
+                                    <div class="row justify-content-center align-items-center">
+                                        <div
+                                            class="desc__head-wrapper d-flex flex-column justify-content-center align-items-center">
+                                            <div class="desc__button-play" id="play">
+
+                                            </div>
+                                        </div>
+                                        <div class="video-container-wrapper">
+                                            <div class="close-pop-up" id="stop-2">
+                                                <span></span>
+                                                <span></span>
+                                            </div>
+                                            <div class="video-container">
+                                                <div id="video-placeholder"></div>
+                                                    <!-- <iframe id="video-placeholder" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="280" height="360" src="https://www.youtube.com/embed/26ufc8SCCvw?autoplay=0&amp;controls=0&amp;rel=0&amp;fs=0&amp;showinfo=0&amp;modestbranding=1&amp;enablejsapi=1&amp;origin=http%3A%2F%2Fgl.romura.space&amp;widgetid=1"></iframe> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Description -->
+
+    <!-- Product -->
+    <section class="product another" id="product">
+        <div class="container container-small">
+
+            <div class="row">
+                <div class="col">
+                    <h2 class="another__title">С этим товаром покупают</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="product__slider row">
+                        <div class="product__item col-auto">
+                            <div class="product__card">
+                                <div class="product__box">
+                                    <img src="img/product.jpg" alt="product">
+                                </div>
+
+                                <div class="product__desc">
+                                    <span class="product__desc-type">Тип:</span>
+                                    <span class="product__desc-target">Для живота и талии</span>
+                                    <span class="product__desc-name">Корректирующее боди (черное)</span>
+                                    <span class="product__desc-price">15 990 руб</span>
+                                </div>
+                                <div class="product__btns">
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/hanger.png" alt="hanger">
+                                        </a>
+                                    </div>
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/percentage.png" alt="percentage">
+                                        </a>
+                                    </div>
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/Shopping-cart.png" alt="cart">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__item col-auto">
+                            <div class="product__card">
+                                <div class="product__box">
+                                    <img src="img/product.jpg" alt="product">
+                                </div>
+
+                                <div class="product__desc">
+                                    <span class="product__desc-type">Тип:</span>
+                                    <span class="product__desc-target">Для живота и талии</span>
+                                    <span class="product__desc-name">Корректирующее боди телесного цвета</span>
+                                    <span class="product__desc-price">15 990 руб</span>
+                                </div>
+                                <div class="product__btns">
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/hanger.png" alt="hanger">
+                                        </a>
+                                    </div>
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/percentage.png" alt="percentage">
+                                        </a>
+                                    </div>
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/Shopping-cart.png" alt="cart">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__item col-auto">
+                            <div class="product__card">
+                                <div class="product__box">
+                                    <img src="img/product.jpg" alt="product">
+                                </div>
+                                <div class="product__desc">
+                                    <div class="product__stock">
+                                        Акция
+                                    </div>
+                                    <span class="product__desc-type">Тип:</span>
+                                    <span class="product__desc-target">Для живота и талии</span>
+                                    <span class="product__desc-name">Корректирующее боди (черное)</span>
+                                    <span class="product__desc-price product__desc-pricered"><span
+                                            class="product__desc-cross">15 990</span> 15 990 руб</span>
+                                </div>
+                                <div class="product__btns">
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/hanger.png" alt="hanger">
+                                        </a>
+                                    </div>
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/percentage.png" alt="percentage">
+                                        </a>
+                                    </div>
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/Shopping-cart.png" alt="cart">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__item col-auto">
+                            <div class="product__card">
+                                <div class="product__box">
+                                    <img src="img/product.jpg" alt="product">
+                                </div>
+                                <div class="product__desc">
+                                    <span class="product__desc-type">Тип:</span>
+                                    <span class="product__desc-target">Для живота и талии</span>
+                                    <span class="product__desc-name">Корректирующее боди (черное)</span>
+                                    <span class="product__desc-price">15 990 руб</span>
+                                </div>
+                                <div class="product__btns">
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/hanger.png" alt="hanger">
+                                        </a>
+                                    </div>
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/percentage.png" alt="percentage">
+                                        </a>
+                                    </div>
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/Shopping-cart.png" alt="cart">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__item col-auto">
+                            <div class="product__card">
+                                <div class="product__box">
+                                    <img src="img/product.jpg" alt="product">
+                                </div>
+                                <div class="product__desc">
+                                    <span class="product__desc-type">Тип:</span>
+                                    <span class="product__desc-target">Для живота и талии</span>
+                                    <span class="product__desc-name">Корректирующее боди (черное)</span>
+                                    <span class="product__desc-price">15 990 руб</span>
+                                </div>
+                                <div class="product__btns">
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/hanger.png" alt="hanger">
+                                        </a>
+                                    </div>
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/percentage.png" alt="percentage">
+                                        </a>
+                                    </div>
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/Shopping-cart.png" alt="cart">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__item col-auto">
+                            <div class="product__card">
+                                <div class="product__box">
+                                    <img src="img/product.jpg" alt="product">
+                                </div>
+                                <div class="product__desc">
+                                    <span class="product__desc-type">Тип:</span>
+                                    <span class="product__desc-target">Для живота и талии</span>
+                                    <span class="product__desc-name">Корректирующее боди (черное)</span>
+                                    <span class="product__desc-price">15 990 руб</span>
+                                </div>
+                                <div class="product__btns">
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/hanger.png" alt="hanger">
+                                        </a>
+                                    </div>
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/percentage.png" alt="percentage">
+                                        </a>
+                                    </div>
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/Shopping-cart.png" alt="cart">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__item col-auto">
+                            <div class="product__card">
+                                <div class="product__box">
+                                    <img src="img/product.jpg" alt="product">
+                                </div>
+                                <div class="product__desc">
+                                    <span class="product__desc-type">Тип:</span>
+                                    <span class="product__desc-target">Для живота и талии</span>
+                                    <span class="product__desc-name">Корректирующее боди (черное)</span>
+                                    <span class="product__desc-price">15 990 руб</span>
+                                </div>
+                                <div class="product__btns">
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/hanger.png" alt="hanger">
+                                        </a>
+                                    </div>
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/percentage.png" alt="percentage">
+                                        </a>
+                                    </div>
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/Shopping-cart.png" alt="cart">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__item col-auto">
+                            <div class="product__card">
+                                <div class="product__box">
+                                    <img src="img/product.jpg" alt="product">
+                                </div>
+                                <div class="product__desc">
+                                    <span class="product__desc-type">Тип:</span>
+                                    <span class="product__desc-target">Для живота и талии</span>
+                                    <span class="product__desc-name">Корректирующее боди (черное)</span>
+                                    <span class="product__desc-price">15 990 руб</span>
+                                </div>
+                                <div class="product__btns">
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/hanger.png" alt="hanger">
+                                        </a>
+                                    </div>
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/percentage.png" alt="percentage">
+                                        </a>
+                                    </div>
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/Shopping-cart.png" alt="cart">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- End Product -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container container-small">
+            <div class="row">
+                <div class="col-md-6 col-lg-3 col-12">
+                    <div class="footer__cataloge">
+                        <h4 class="footer__title">Каталог</h4>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Антицеллюлитное бельё
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Корректирующее бельё
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Моделирующее бельё
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Мужское корректирующее бельё
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Распродажа корректирующего белья
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-12">
+                    <div class="footer__menu">
+                        <h4 class="footer__title">Меню</h4>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Каталог
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Примерка на дому
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Мероприятия
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Школа стройности
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Блог
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Гарантии и возврат
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Доставка и оплата
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Контакты
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-12">
+                    <div class="footer__contact">
+                        <h4 class="footer__title">Контакты</h4>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="#" class="footer__link footer__link-flex">
+                                    <span class="footer__letter">A:</span> <span
+                                        class="footer__address">Россия,115088,г.Москва, Шарикоподшипниковская,д13, с.2,
+                                        3 этаж,офис</span>
+
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="tel:+7(495)799-08-96" class="footer__link">
+                                    <span class="footer__letter">T:</span> +7(495)799-08-96
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="mailto:info@silk-way.ru" class="footer__link">
+                                    <span class="footer__letter">E:</span> info@silk-way.ru
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="javascript:void(0);" class="footer__link">
+                                    <span class="footer__letter">W:</span> пн-пт: с 10:00 до 19:00
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-12">
+                    <div class="footer__mailing">
+                        <h4 class="footer__title">Рассылка</h4>
+                        <p class="footer__text">
+                            Подпишитесь на новости и акции Silkway будьте в курсе новинок и спецпредложений!
+                        </p>
+                        <input type="email" name="" id="" placeholder="E-mail">
+                        <a href="#" class="footer__btn link-btn">Подписаться</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="footer__copyrights">
+                        <span>&copy; Copyrights 2019</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- End Footer -->
+
+    <!-- Popup Search -->
+    <div class="pop-up-search pop-up-mark content passive">
+        <div class="cover"></div>
+        <div class="pop-up col-10 col-lg-8">
+
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="search">
+                        <div class="input-block d-flex align-items-center justify-content-between">
+                            <div class="button-search d-flex align-items-center justify-content-center">
+                                <span><object type="image/svg+xml" data="img/search-button.svg"></object></span>
+                            </div>
+                            <label for="search" class="d-none"></label>
+                            <input type="text" id="search" placeholder="Поиск по каталогу">
+                            <div class="wrapper-close-pop-up">
+                                <div class="close-pop-up">
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="search-list scroll-box">
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                        src="img/arrow-to.png" alt="image"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- End Popup Search -->
+
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!-- YouTube -->
+    <script src="https://www.youtube.com/iframe_api"></script>
+
+    <!-- Slick slider -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+
+    <!-- Mask input -->
+    <script src="js/jquery.maskedinput.min.js"></script>
+
+    <!-- Ion icons -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+    <!-- Custom Scrollbar -->
+    <script src="js/jquery.mCustomScrollbar.min.js"></script>
+
+    <!-- Script -->
+    <script src="js/script.js"></script>
+    <script src="js/video.js"></script>
+
+</body>
+
+</html>

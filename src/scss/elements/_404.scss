@@ -1,0 +1,87 @@
+.content-404 {
+    height: 100vh;
+}
+
+.content {
+
+    .forbiden-title {
+        font: 800 normal 54px/1.2 'Playfair Display', sans-serif;
+        letter-spacing: -2.7px;
+        color: #111;
+        padding-bottom: 30px;
+        position: relative;
+    }
+
+    .forbiden-number {
+        padding: 0;
+        letter-spacing: 0;
+        color: #ed1d23;
+        // opacity: 0.5;
+        // text-shadow: 3px 20px 20px rgba(0, 0, 0, 0.75), -3px 10px 12px rgba(0, 0, 0, 0.25);
+        position: relative;
+        transform: translateX(0px);
+        font: 700 normal 12rem/normal 'tt_normsmedium', serif;
+    }
+}
+
+@media all and (max-width: 1199px) {
+    .content {
+
+        .forbiden-title {
+            font-size: 40px;
+        }
+    }
+}
+
+@media all and (max-width: 991px) {
+    .content {
+
+        .forbiden-title {
+            font-size: 32px;
+        }
+
+        .forbiden-number {
+            font-size: 10rem;
+        }
+    }
+}
+
+@media all and (max-width: 767px) {
+    .content {
+
+        .forbiden-title {
+            font-size: 28px;
+        }
+
+        .forbiden-number {
+            font-size: 8rem;
+        }
+    }
+}
+
+@media all and (max-width: 567px) {
+    .content {
+
+        .forbiden-title {
+            font-size: 24px;
+        }
+
+        .forbiden-number {
+            font-size: 6rem;
+        }
+    }
+}
+
+@media all and (max-width: 424px) {
+    .content {
+
+        .forbiden-title {
+            font-size: 24px;
+            letter-spacing: -1.7px;
+        }
+
+        .forbiden-number {
+            font-size: 4rem;
+        }
+    }
+}

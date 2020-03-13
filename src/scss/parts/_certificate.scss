@@ -1,0 +1,172 @@
+.cert {
+    margin-bottom: 95px;
+
+    &__top {
+        width: 100%;
+        padding-bottom: 7px;
+        margin-bottom: 59px;
+        border-bottom: 1px solid #d4d4d4;
+    }
+
+    &__title {
+        font-family: 'Playfair Display', serif;
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        color: #111111;
+        text-transform: uppercase;
+
+        span {
+            color: #ed1d23;
+        }
+    }
+
+    // &__slider {
+    //     cursor: pointer;
+    // }
+
+    &__item {
+        outline: none;
+        cursor: pointer;
+        overflow: hidden;
+    }
+
+    &__cert {
+        padding: 5px;
+        border: 1px solid #E5E5E5;
+
+        &:hover {
+            border: 1px solid #bc0005;
+        }
+
+        img {
+            position: relative;
+            padding: 5px;
+            border: 2px solid #E5E5E5;
+
+           
+        }
+    }
+
+    &__arrowleft,
+    &__arrowright {
+        background-color: #F3F3F3;
+    }
+
+    &__arrowleft {
+        top: 157px;
+        left: -92px;
+    }
+
+    &__arrowright {
+        top: 157px;
+        right: -72px;
+    }
+
+    .slick-track {
+        display: flex;
+    }
+}
+
+@media all and (max-width: 1199px) {
+    .cert {
+
+        &__arrowright {
+            top: 50%;
+            right: 0;
+        }
+
+        &__arrowleft {
+            top: 50%;
+            left: 0;
+        }
+    }
+}
+
+@media all and (max-width: 991px) {
+    .cert {
+
+        // &__slider {
+        //     margin-right: 0;
+        // }
+
+        &__arrowright {
+            right: 0;
+        }
+
+        &__arrowleft {
+            left: 0;
+        }
+    }
+
+}
+
+@media all and (max-width: 767px) {
+    .cert {
+
+        &__title {
+            font-size: 22px;
+        }
+
+        &__arrowleft {
+            left: 0;
+        }
+
+        &__arrowright {
+            right: 0;
+        }
+    }
+}
+
+
+
+@media all and (max-width: 575px) {
+    .cert {
+        margin-bottom: 80px;
+
+        &__cert {
+            // width: 300px;
+            margin: 0 auto;
+        }
+
+        &__arrowright {
+            right: 0;
+        }
+
+        &__arrowleft {
+            left: 0;
+        }
+    }
+}
+
+@media all and (max-width: 424px) {
+    .cert {
+
+        &__cert {
+            // width: 255px;
+            margin: 0 auto;
+        }
+
+        &__arrowleft {
+            left: 0;
+        }
+
+        &__arrowright {
+            right: 0;
+        }
+    }
+}
+
+@media all and (max-width: 374px) {
+    .cert {
+
+        &__arrowleft {
+            left: 0;
+        }
+
+        &__arrowright {
+            right: 0;
+        }
+
+    }
+}

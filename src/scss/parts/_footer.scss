@@ -1,0 +1,126 @@
+.footer {
+    padding: 46px;
+    border-top: 1px solid #d4d4d4;
+    background: #f9f8f8;
+
+    &__cataloge,
+    &__menu,
+    &__contact,
+    &__mailing {
+        margin-bottom: 50px;
+    }
+
+    &__list {
+        list-style: none;
+
+    }
+
+    &__item {
+        margin-bottom: 10px;
+    }
+
+    &__title {
+        font-family: 'tt_normsbold', sans-serif;
+        font-weight: 700;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 23px;
+        color: #111111;
+        letter-spacing: 2px;
+    }
+
+    &__link {
+        font-size: 14px;
+        color: #111111;
+
+        &:hover {
+            color: #696969;
+            text-decoration: none;
+        }
+
+        &-flex {
+            display: flex;
+        }
+    }
+
+    &__letter {
+        margin-right: 13px;
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        font-size: 16px;
+        color: #cb0a20;
+
+        &-small {
+            margin-right: 5px;
+        }
+
+        &-middle {
+            margin-right: 10px;
+        }
+    }
+
+    &__address {
+        width: 205px;
+        display: inline-block;
+        font-size: 14px;
+        color: #111111;
+        font-family: 'tt_normsregular',sans-serif;
+    }
+
+    &__text {
+        color: #111111;
+        line-height: 21px;
+        margin-bottom: 32px;
+        font-size: 14px;
+    }
+
+    &__mailing {
+
+        input {
+            padding-bottom: 7px;
+            font-size: 14px;
+            margin-bottom: 25px;
+            border: none;
+            width: 100%;
+            border-bottom: 1px solid #111111;
+            background: #f9f8f8;
+            outline: none;
+            -webkit-appearance: none;
+            -webkit-border-radius: 0px;
+            border-radius:0;
+
+            &:focus {
+                border-bottom: 2px solid #111111;
+                -webkit-appearance: none;
+                -webkit-border-radius: 0px;
+                border-radius:0;
+            }
+        }
+    }
+
+    &__btn {
+        padding-bottom: 5px;
+        color: #ed1d23;
+        font-family: 'tt_normsbold', sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border-bottom: 2px solid #ed1d23;
+    }
+    
+}
+
+@media all and (max-width: 992px) {
+    .footer {
+
+        &__title {
+            margin-bottom: 15px;
+        }
+
+        &__item {
+            margin-bottom: 5px;
+        }
+    }
+}

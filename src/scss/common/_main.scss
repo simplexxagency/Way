@@ -1,0 +1,212 @@
+@font-face {
+    font-family: "disruptors_scriptregular";
+    src: url("../fonts/disruptors_script/disruptors_script-webfont.woff2") format("woff2"),
+         url("../fonts/disruptors_script/disruptors_script-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'tt_normsblack';
+    src: url('../fonts/TTNorms/ttnorms-black-webfont.woff2') format('woff2'),
+         url('../fonts/TTNorms/ttnorms-black-webfont.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'tt_normsbold';
+    src: url('../fonts/TTNorms/ttnorms-bold-webfont.woff2') format('woff2'),
+         url('../fonts/TTNorms/ttnorms-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'tt_normsmedium';
+    src: url('../fonts/TTNorms/ttnorms-medium-webfont.woff2') format('woff2'),
+         url('../fonts/TTNorms/ttnorms-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'tt_normsregular';
+    src: url('../fonts/TTNorms/ttnorms-regular-webfont.woff2') format('woff2'),
+         url('../fonts/TTNorms/ttnorms-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+
+body, html {
+    width: 100vw;
+    margin: 0 !important;
+    padding: 0 !important;
+    height: auto;
+    min-height: 100vh;
+    // overflow-x: hidden;
+    position: relative;
+    flex-direction: column;
+    background: #fff;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 0;
+    background: transparent;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+select,
+input,
+textarea {
+    padding: 0;
+    -webkit-appearance: none;
+    line-height: normal;
+}
+
+
+body {
+    height: 100%;
+    font-family: "tt_normsregular", sans-serif;
+    color: #666666;
+
+    &.active {
+        overflow: hidden;
+    }
+}
+
+img {
+    width: 100%;
+}
+
+.link-btn {
+    font-family: 'tt_normsbold', sans-serif;
+    letter-spacing: 2px;
+
+    &:hover {
+        text-decoration: none;
+        color: #bc0005;
+        border-bottom: 2px solid #bc0005;
+    }
+
+    &-media {
+
+        &:hover {
+            text-decoration: none;
+            color: #bc0005;
+            
+        }
+        
+    }
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    text-decoration: none;
+    color: #111111;
+}
+
+.slick__arrows {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 900;
+    color: #111111;
+    text-decoration: none;
+    height: 55px;
+    width: 60px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 55px;
+    z-index: 1;
+    cursor: pointer;
+
+        &:hover {
+
+            & .arrowleft-img,
+            & .arrowright-img {
+                filter: brightness(0) saturate(100%) invert(29%) sepia(97%) saturate(6405%) hue-rotate(348deg) brightness(86%) contrast(102%);
+            }
+        }
+}
+
+.arrowright-img,
+.arrowleft-img {
+    width: 20px;
+
+    &:hover {
+        filter: brightness(0) saturate(100%) invert(29%) sepia(97%) saturate(6405%) hue-rotate(348deg) brightness(86%) contrast(102%);
+    }
+   
+}
+
+.number {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    color: #ed1d23;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 42px;
+}
+
+@media (min-width: 1200px) {
+    .container-small {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+
+    .container-large {
+        max-width: 1315px;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+        
+    
+        
+    
+    

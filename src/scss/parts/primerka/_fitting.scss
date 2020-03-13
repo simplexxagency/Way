@@ -1,0 +1,100 @@
+.fitting {
+    margin-bottom: 124px;
+
+    &__item {
+        position: relative;
+        width: 100%;
+        height: 540px;
+        border-bottom: 5px solid transparent;
+
+        &.active {
+            border-bottom: 5px solid #e6253c;
+        }
+        
+        &:hover {
+            border-bottom: 5px solid #e6253c;
+            transition: all ease .5s;
+        }
+
+        // &:before {
+        //     content: '';
+        //     display: block;
+        //     position: absolute;
+        //     top: 0;
+        //     left: 0;
+        //     right: 0;
+        //     bottom: 0;
+        //     background: linear-gradient(to right, rgba(60,61,63,1) 0%, rgba(197,207,219,1) 100%);
+        //     opacity: 0.4;
+        // }
+
+        &-left {
+            background: url('../../../img/primerka-bg-1.jpg') center no-repeat;
+            background-size: cover;
+
+        }
+
+        &-right {
+            background: url('../../../img/primerka-bg-2.jpg') center no-repeat;
+            background-size: cover;
+        }
+    }
+
+    &__box {
+        width: 315px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    &__place {
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        font-size: 24px;
+        color: #fff;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+}
+
+
+
+@media all and (max-width: 991px) {
+    .fitting {
+        margin-bottom: 60px;
+
+        &__item {
+            margin-bottom: 20px;
+        }
+    }
+
+}
+
+@media all and (max-width: 575px) {
+    .fitting {
+
+        &__item {
+            height: 300px;
+        }
+
+        &__box {
+            width: 300px;
+            text-align: center;
+        }
+
+        &__place {
+            font-size: 18px;
+            
+        }
+    }
+}
+
+@media all and (max-width: 424px) {
+    .fitting {
+
+        &__box {
+            width: auto;
+        }
+    }
+}

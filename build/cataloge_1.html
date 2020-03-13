@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www/w3/org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1 initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SilkWay Cataloge</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap&subset=cyrillic"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <!-- Slick Slider -->
+    <link rel="stylesheet" type="text/css" href="css/slick/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.min.css" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="nav-fixed first-state">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row row-visible">
+                    <div class="d-flex align-items-center">
+                        <nav class="nav-social-list d-none d-xl-flex">
+                            <a href="#">Instagram</a>
+                            <a href="#">YouTube</a>
+                            <a href="#">Facebook</a>
+                        </nav>
+                        <ul class="to-check d-none  d-xl-flex">
+                            <li class="call-item d-flex align-items-center">
+                                <div class="d-flex align-items-center city__moscow">
+                                    <img src="img/placeholder-header.svg" alt="image">
+                                </div>
+                                <div class="city underline city__hover">Москва</div>
+                                <img src="img/arrow.svg" alt="image" class="arrow">
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <ul class="logo-brand">
+                        <li class="col col-sm-auto col-xl-12"><a href="#">
+                                <img src="img/logo-header.png" alt="image" class="d-none">
+                                <img class="logo__brand" src="img/logo-header.png" alt="logo">
+                            </a></li>
+                        <li class="col  col-sm-auto to-check d-xl-none">
+                            <span><img src="img/placeholder-header.svg" alt="image"></span>
+                        </li>
+                        <li class="col col-sm-auto  to-search d-xl-none">
+                            <span><img src="img/search-header.svg" alt="image"></span>
+                        </li>
+                        <li class="col col-sm-auto  to-cart to-cart-mobile d-xl-none"><a href="#">
+                                <img src="img/cart.svg" alt="image">
+                            </a></li>
+                        <li class="col col-sm-auto  to-call to-call-mobile d-xl-none"><a href="#">
+                                <img src="img/call-header.svg" alt="image">
+                            </a></li>
+
+                        <li class="col col-sm-auto  to-show-menu d-xl-none">
+                            <div class="navbar-icon">
+                                <div class="line-button"></div>
+                                <div class="line-button"></div>
+                                <div class="line-button"></div>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="d-flex align-items-center">
+                        <div class="to-call  d-none  d-xl-flex">
+                            <div class="call-item d-flex align-items-center phone__tel">
+                                <img src="img/call-header.svg" alt="image">
+                                <div class="phone"><a href="tel:79851141569">+7 (985) 114-15-69</a></div>
+                                <img src="img/arrow.svg" alt="image" class="arrow">
+                            </div>
+
+                        </div>
+                        <ul class="search d-none d-xl-flex">
+                            <li class="input-block d-flex align-items-center justify-content-between">
+                                <div
+                                    class="button-search d-flex align-items-center justify-content-center to-search to-search__btn">
+                                    <span><img src="img/search-header.svg" alt="image"></span>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="align-items-center d-none d-xl-flex">
+                            <a href="#" class="d-flex align-items-center cart">
+                                <img src="img/cart.svg" alt="image">
+                                <span>0 товаров</span></a>
+                        </div>
+                    </div>
+
+
+                    <ul class="menu-list d-none d-xl-flex col-12 menu__main">
+                        <li class="menu-item menu__main-item"><a class="menu__main-link">Каталог<img
+                                    src="img/sub-menu.svg" alt="image"></a>
+                            <div class="sub-menu-list-wrapper">
+                                <ul class="sub-menu-list">
+                                    <li class="sub-menu-item menu__subitem"><a>Катeгория 01<img src="img/sub-menu.svg"
+                                                alt="image"></a>
+                                        <div class="sub-menu-list-wrapper  sub-sub">
+                                            <ul class="sub-menu-list">
+                                                <li class="sub-sub-menu-item"><a href="#">Подкатeгория 01</a></li>
+                                                <li class="sub-sub-menu-item"><a href="#">Подкатeгория 02</a></li>
+                                                <li class="sub-sub-menu-item"><a href="#">Подкатeгория 03</a></li>
+                                                <li class="sub-sub-menu-item"><a href="#">Подкатeгория 04</a></li>
+                                                <li class="sub-sub-menu-item"><a href="#">Подкатeгория 05</a></li>
+                                                <li class="sub-sub-menu-item"><a href="#">Подкатeгория 06</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="sub-menu-item"><a href="#">Катeгория 02</a></li>
+                                    <li class="sub-menu-item"><a href="#">Катeгория 03</a></li>
+                                    <li class="sub-menu-item"><a href="#">Катeгория 04</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu-item menu__main-item"><a class="menu__main-link" href="#">Примерка</a></li>
+                        <li class="menu-item menu__main-item"><a class="menu__main-link" href="#">Мероприятия</a></li>
+                        <li class="menu-item menu__main-item"><a class="menu__main-link" href="#">школа стройности</a>
+                        </li>
+                        <li class="menu-item menu__main-item"><a class="menu__main-link" href="#">блог</a></li>
+                        <li class="menu-item menu__main-item"><a class="menu__main-link" href="#">гарантия и возврат</a>
+                        </li>
+                        <li class="menu-item menu__main-item"><a class="menu__main-link" href="#">доставка и оплата</a>
+                        </li>
+                        <li class="menu-item menu__main-item"><a class="menu__main-link" href="#">контакты</a></li>
+                    </ul>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row row-collapsed">
+                    <ul class="menu-list scroll-box">
+                        <li class="menu-item menu__main-item"><a>Каталог<img src="img/sub-menu.svg" alt="image"></a>
+                            <div class="sub-menu-list-wrapper">
+                                <ul class="sub-menu-list">
+                                    <li class="sub-menu-item"><a>Катeгория 01<img src="img/sub-menu.svg"
+                                                alt="image"></a>
+                                        <div class="sub-menu-list-wrapper  sub-sub">
+                                            <ul class="sub-menu-list">
+                                                <li class="sub-sub-menu-item"><a href="#">Подкатeгория 01</a></li>
+                                                <li class="sub-sub-menu-item"><a href="#">Подкатeгория 02</a></li>
+                                                <li class="sub-sub-menu-item"><a href="#">Подкатeгория 03</a></li>
+                                                <li class="sub-sub-menu-item"><a href="#">Подкатeгория 04</a></li>
+                                                <li class="sub-sub-menu-item"><a href="#">Подкатeгория 05</a></li>
+                                                <li class="sub-sub-menu-item"><a href="#">Подкатeгория 06</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="sub-menu-item"><a href="#">Катeгория 02</a></li>
+                                    <li class="sub-menu-item"><a href="#">Катeгория 03</a></li>
+                                    <li class="sub-menu-item"><a href="#">Катeгория 04</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu-item"><a href="#">Примерка</a></li>
+                        <li class="menu-item"><a href="#">Мероприятия</a></li>
+                        <li class="menu-item"><a href="#">школа стройности</a></li>
+                        <li class="menu-item"><a href="#">блог</a></li>
+                        <li class="menu-item"><a href="#">гарантия и возврат</a></li>
+                        <li class="menu-item"><a href="#">доставка и оплата</a></li>
+                        <li class="menu-item"><a href="#">контакты</a></li>
+                    </ul>
+
+                    <ul class="check-list">
+                        <li class="check-item">
+                            <p>Выберите Ваш город</p>
+                        </li>
+                        <li class="call-item">
+                            <ul class="city-list row scroll-box">
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="call-list">
+                        <li class="call-item"><a href="tel:79851141569">+7 (985) 114-15-69</a></li>
+                        <li class="call-item"><a href="tel:79851141569">+7 (985) 114-15-69</a></li>
+                        <li class="call-item"><a href="tel:79851141569">+7 (985) 114-15-69</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- End Header -->
+
+    <!-- Cataloge -->
+    <section class="cat-cataloge">
+        <div class="container-small container">
+            <div class="row">
+                <div class="col">
+                    <nav>
+                        <ul class="breadcrumbs ">
+                            <li class="breadcrumbs-item"><a href="main.html">Главная</a></li>
+                            <li class="breadcrumbs-item active">Каталог</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="cat-cataloge__wrap">
+                        <h1 class="cat-cataloge__title"><span>Каталог</span> товаров</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="cat-cataloge__item">
+                        <a href="javascript:void(0)" class="cat-cataloge__link cat-cataloge__link-model active">
+                            <span>Профессиональное <span class="cat-cataloge__link-red">моделирующее</span> белье</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cat-cataloge__item">
+                        <a href="javascript:void(0)" class="cat-cataloge__link cat-cataloge__link-correct">
+                            <span>Профессиональное <span class="cat-cataloge__link-red">корректирующее</span>
+                                белье</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cat-cataloge__item">
+                        <a href="javascript:void(0)" class="cat-cataloge__link cat-cataloge__link-anti">
+                            <span>Профессиональное <span class="cat-cataloge__link-red">антицеллюлитное</span>
+                                белье</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Cataloge -->
+
+    <!-- Choose  -->
+    <section class="c-choose">
+        <div class="container-small container">
+            <div class="row">
+                <div class="col">
+                    <h3 class="c-choose__title">
+                        Выбрать <span>по назначению:</span>
+                    </h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="c-choose__item">
+                        <a href="#" class="c-choose__link">
+                            <img src="img/choose-1.jpg" alt="choose-img">
+                            <div class="c-choose__box">
+                                    <span>Бюстгальтеры</span>
+                            </div>
+                            
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="c-choose__item">
+                        <a href="#" class="c-choose__link">
+                            <img src="img/choose-2.jpg" alt="choose-img">
+                            <div class="c-choose__box">
+                                    <span>Корсеты</span>
+                            </div>
+                            
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="c-choose__item">
+                        <a href="#" class="c-choose__link">
+                            <img src="img/choose-3.jpg" alt="choose-img">
+                            <div class="c-choose__box">
+                                    <span class="c-choose__link-small">Шорты и трусики </span>
+                            </div>
+                            
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="c-choose__item">
+                        <a href="#" class="c-choose__link">
+                            <img src="img/choose-4.jpg" alt="choose-img">
+                            <div class="c-choose__box"><span>Леггинсы</span></div>
+                            
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="c-choose__item">
+                        <a href="#" class="c-choose__link">
+                            <img src="img/choose-5.jpg" alt="choose-img">
+                            <div class="c-choose__box">
+                                    <span>Боди</span>
+                            </div>
+                            
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="c-choose__item">
+                        <a href="#" class="c-choose__link">
+                            <img src="img/choose-6.jpg" alt="choose-img">
+                            <div class="c-choose__box">
+                                    <span>Комбидресы</span>
+                            </div>
+                            
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Choose -->
+
+    <!-- c-Function -->
+    <section class="c-function">
+        <div class="container-small container">
+            <div class="row">
+                <div class="col">
+                    <h3 class="c-function__title">
+                        Выбрать <span>по функционалу:</span>
+                    </h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="c-function__item">
+                        <a href="#" class="c-function__link">
+                            <img src="img/function-bg.jpg" alt="function-bg">
+                            <span>Под платье</span>
+
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="c-function__item"><a href="#" class="c-function__link">
+                            <img src="img/function-bg.jpg" alt="function-bg">
+                            <span>
+                                Под костюм
+                            </span>
+
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="c-function__item">
+                        <a href="#" class="c-function__link">
+                            <img src="img/function-bg.jpg" alt="function-bg">
+                            <span>Под брюки</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="c-function__item">
+                        <a href="#" class="c-function__link">
+                            <img src="img/function-bg.jpg" alt="function-bg">
+
+                            <span>Под трикотаж</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="c-function__item">
+                        <a href="#" class="c-function__link">
+                            <img src="img/function-bg.jpg" alt="function-bg">
+                            <span>Спорт</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="c-function__item">
+                        <a href="#" class="c-function__link">
+                            <img src="img/function-bg.jpg" alt="function-bg">
+                            <span>После родов</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="c-function__item">
+                        <a href="#" class="c-function__link">
+                            <img src="img/function-bg.jpg" alt="function-bg">
+                            <span>Ортопедия</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="c-function__item">
+                        <a href="#" class="c-function__link">
+                            <img src="img/function-bg.jpg" alt="function-bg">
+                            <span>Норма веса</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End c-Function -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container container-small">
+            <div class="row">
+                <div class="col-md-6 col-lg-3 col-12">
+                    <div class="footer__cataloge">
+                        <h4 class="footer__title">Каталог</h4>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Антицеллюлитное бельё
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Корректирующее бельё
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Моделирующее бельё
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Мужское корректирующее бельё
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Распродажа корректирующего белья
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-12">
+                    <div class="footer__menu">
+                        <h4 class="footer__title">Меню</h4>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Каталог
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Примерка на дому
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Мероприятия
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Школа стройности
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Блог
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Гарантии и возврат
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Доставка и оплата
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Контакты
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-12">
+                    <div class="footer__contact">
+                        <h4 class="footer__title">Контакты</h4>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="#" class="footer__link footer__link-flex">
+                                    <span class="footer__letter">A:</span> <span
+                                        class="footer__address">Россия,115088,г.Москва, Шарикоподшипниковская,д13, с.2,
+                                        3 этаж,офис</span>
+
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="tel:+7(495)799-08-96" class="footer__link">
+                                    <span class="footer__letter">T:</span> +7(495)799-08-96
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="mailto:info@silk-way.ru" class="footer__link">
+                                    <span class="footer__letter">E:</span> info@silk-way.ru
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="javascript:void(0);" class="footer__link">
+                                    <span class="footer__letter">W:</span> пн-пт: с 10:00 до 19:00
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-12">
+                    <div class="footer__mailing">
+                        <h4 class="footer__title">Рассылка</h4>
+                        <p class="footer__text">
+                            Подпишитесь на новости и акции Silkway будьте в курсе новинок и спецпредложений!
+                        </p>
+                        <input type="email" name="" id="" placeholder="E-mail">
+                        <a href="#" class="footer__btn link-btn">Подписаться</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="footer__copyrights">
+                        <span>&copy; Copyrights 2019</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- End Footer -->
+
+    <!-- Popup Search -->
+    <div class="pop-up-search pop-up-mark content passive">
+        <div class="cover"></div>
+        <div class="pop-up col-10 col-lg-8">
+    
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="search">
+                        <div class="input-block d-flex align-items-center justify-content-between">
+                            <div class="button-search d-flex align-items-center justify-content-center">
+                                <span><object type="image/svg+xml" data="img/search-button.svg"></object></span>
+                            </div>
+                            <label for="search" class="d-none"></label>
+                            <input type="text"
+                                   id="search"
+                                   placeholder="Поиск по каталогу">
+                            <div class="wrapper-close-pop-up">
+                                <div class="close-pop-up">
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="search-list scroll-box">
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    <!-- End Popup Search -->
+
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!-- Slick slider -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+
+    <!-- Mask input -->
+    <script src="js/jquery.maskedinput.min.js"></script>
+
+    <!-- Ion icons -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+    <!-- Script -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

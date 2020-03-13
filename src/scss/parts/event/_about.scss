@@ -1,0 +1,128 @@
+.about {
+    margin-bottom: 60px;
+
+    &__container {
+        padding-left: 33px;
+    }
+
+    &__box {
+        min-height: 330px;
+    }
+
+    &__title {
+        margin-bottom: 27px;
+        font-weight: 700;
+        font-family: 'Playfair Display', serif;
+        font-size: 24px;
+        color: #ED1D23;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+    &__prog {
+        height: 100%;
+        padding: 20px 20px 35px 25px;
+        border: 1px solid #e5e5e5;
+        background-color: #f7f7f7;
+
+        &-list {
+            list-style: none;
+            margin-bottom: 66px;
+        }
+
+        &-item {
+            margin-bottom: 10px;
+            font-size: 14px;
+            color: #111;
+
+            span {
+                margin-right: 7px;
+                color: #999999;
+            }
+        }
+
+        &-btn {
+            letter-spacing: 2px;
+        }
+    }
+
+    &__wrap {
+        height: 100%;
+        padding: 20px 20px 20px 25px;
+        border: 1px solid #e5e5e5;
+        background-color: #f7f7f7;
+
+        .about__subtitle {
+            margin-bottom: 21px;
+        }
+    }
+
+    &__subtitle {
+        margin-bottom: 12px;
+
+        span {
+            font-size: 18px;
+            font-weight: 700;
+            color: #111;
+        }
+    }
+
+    &__list {
+        padding-left: 18px;
+    }
+
+    &__item {
+        position: relative;
+        margin-bottom: 22px;
+        color: #111;
+
+        p {
+            line-height: 25px;
+        }
+
+        span {
+            font-weight: 700;
+        }
+
+        &:after {
+            content: '.';
+            position: absolute;
+            top: -34px;
+            left: -19px;
+            font-size: 42px;
+            color: #ed1d23;
+        }
+    }
+}
+
+@media all and (max-width: 991px) {
+    .about {
+
+        &__prog,
+        &__wrap {
+            height: auto;
+        }
+
+        &__prog {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media all and (max-width: 767px) {
+    .about {
+
+        &__container {
+            padding-left: 0;
+        }
+    }
+}
+
+@media all and (max-width: 577px) {
+    .about {
+
+        &__title {
+            font-size: 22px;
+        }
+    }
+}

@@ -1,0 +1,68 @@
+.e-contact {
+    margin-bottom: 118px;
+
+    &__box {
+        padding-left: 33px;
+    }
+
+    .contact {
+
+        &__contact {
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+        }
+
+        &__desc {
+            margin-right: 0;
+            padding-right: 0;
+        }
+    }
+}
+
+@media all and (max-width: 991px) {
+    .e-contact {
+        margin-bottom: 60px;
+
+        .contact {
+
+            &__header,
+            &__text {
+                display: block;
+            }
+
+            &__desc {
+                width: auto;
+            }
+
+            &__header {
+                border: none;
+            }
+
+            &__letter-margin {
+                margin-left: 0;
+                margin-right: 0;
+            } 
+        }
+    }
+}
+
+@media all and (max-width: 767px) {
+    .e-contact {
+
+        &__box {
+            padding-left: 0;
+        }
+
+        
+    }
+}
+
+@media all and (max-width: 577px) {
+    .e-contact {
+
+        &__title {
+            font-size: 22px;
+        }
+    }
+}

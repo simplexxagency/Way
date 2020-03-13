@@ -1,0 +1,1559 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www/w3/org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SilkWay</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap&subset=cyrillic"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <!-- Slick Slider -->
+    <link rel="stylesheet" type="text/css" href="css/slick/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.min.css" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Header -->
+    <header class="nav-fixed first-state">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row row-visible">
+                        <div class="d-flex align-items-center">
+                            <nav class="nav-social-list d-none d-xl-flex">
+                                <a href="#">Instagram</a>
+                                <a href="#">YouTube</a>
+                                <a href="#">Facebook</a>
+                            </nav>
+                            <ul class="to-check d-none  d-xl-flex">
+                                <li class="call-item d-flex align-items-center">
+                                    <div class="d-flex align-items-center city__moscow">
+                                        <img src="img/placeholder-header.svg" alt="image">
+                                    </div>
+                                    <div class="city underline city__hover">Москва</div>
+                                    <img src="img/arrow.svg" alt="image" class="arrow">
+                                </li>
+                            </ul>
+                        </div>
+    
+    
+                        <ul class="logo-brand">
+                            <li class="col col-sm-auto col-xl-12"><a href="#">
+                                    <img src="img/logo-header.png" alt="image" class="d-none">
+                                    <img class="logo__brand" src="img/logo-header.png" alt="logo">
+                                </a></li>
+                            <li class="col  col-sm-auto to-check d-xl-none">
+                                <span><img src="img/placeholder-header.svg" alt="image"></span>
+                            </li>
+                            <li class="col col-sm-auto  to-search d-xl-none">
+                                <span><img src="img/search-header.svg" alt="image"></span>
+                            </li>
+                            <li class="col col-sm-auto  to-cart to-cart-mobile d-xl-none"><a href="#">
+                                    <img src="img/cart.svg" alt="image">
+                                </a></li>
+                            <li class="col col-sm-auto  to-call to-call-mobile d-xl-none"><a href="#">
+                                    <img src="img/call-header.svg" alt="image">
+                                </a></li>
+    
+                            <li class="col col-sm-auto  to-show-menu d-xl-none">
+                                <div class="navbar-icon">
+                                    <div class="line-button"></div>
+                                    <div class="line-button"></div>
+                                    <div class="line-button"></div>
+                                </div>
+                            </li>
+                        </ul>
+    
+                        <div class="d-flex align-items-center">
+                            <div class="to-call  d-none  d-xl-flex">
+                                <div class="call-item d-flex align-items-center phone__tel">
+                                    <img src="img/call-header.svg" alt="image">
+                                    <div class="phone"><a href="tel:79851141569">+7 (985) 114-15-69</a></div>
+                                    <img src="img/arrow.svg" alt="image" class="arrow">
+                                </div>
+    
+                            </div>
+                            <ul class="search d-none d-xl-flex">
+                                <li class="input-block d-flex align-items-center justify-content-between">
+                                    <div
+                                        class="button-search d-flex align-items-center justify-content-center to-search to-search__btn">
+                                        <span><img src="img/search-header.svg" alt="image"></span>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="align-items-center d-none d-xl-flex">
+                                <a href="#" class="d-flex align-items-center cart">
+                                    <img src="img/cart.svg" alt="image">
+                                    <span>0 товаров</span></a>
+                            </div>
+                        </div>
+    
+    
+                        <ul class="menu-list d-none d-xl-flex col-12 menu__main">
+                            <li class="menu-item menu__main-item"><a class="menu__main-link">Каталог<img
+                                        src="img/sub-menu.svg" alt="image"></a>
+                                <div class="sub-menu-list-wrapper">
+                                    <ul class="sub-menu-list">
+                                        <li class="sub-menu-item menu__subitem"><a>Катeгория 01<img src="img/sub-menu.svg"
+                                                    alt="image"></a>
+                                            <div class="sub-menu-list-wrapper  sub-sub">
+                                                <ul class="sub-menu-list">
+                                                    <li class="sub-sub-menu-item"><a href="#">Подкатeгория 01</a></li>
+                                                    <li class="sub-sub-menu-item"><a href="#">Подкатeгория 02</a></li>
+                                                    <li class="sub-sub-menu-item"><a href="#">Подкатeгория 03</a></li>
+                                                    <li class="sub-sub-menu-item"><a href="#">Подкатeгория 04</a></li>
+                                                    <li class="sub-sub-menu-item"><a href="#">Подкатeгория 05</a></li>
+                                                    <li class="sub-sub-menu-item"><a href="#">Подкатeгория 06</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="sub-menu-item"><a href="#">Катeгория 02</a></li>
+                                        <li class="sub-menu-item"><a href="#">Катeгория 03</a></li>
+                                        <li class="sub-menu-item"><a href="#">Катeгория 04</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="menu-item menu__main-item"><a class="menu__main-link" href="#">Примерка</a></li>
+                            <li class="menu-item menu__main-item"><a class="menu__main-link" href="#">Мероприятия</a></li>
+                            <li class="menu-item menu__main-item"><a class="menu__main-link" href="#">школа стройности</a>
+                            </li>
+                            <li class="menu-item menu__main-item"><a class="menu__main-link" href="#">блог</a></li>
+                            <li class="menu-item menu__main-item"><a class="menu__main-link" href="#">гарантия и возврат</a>
+                            </li>
+                            <li class="menu-item menu__main-item"><a class="menu__main-link" href="#">доставка и оплата</a>
+                            </li>
+                            <li class="menu-item menu__main-item"><a class="menu__main-link" href="#">контакты</a></li>
+                        </ul>
+    
+    
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row row-collapsed">
+                        <ul class="menu-list scroll-box">
+                            <li class="menu-item menu__main-item"><a>Каталог<img src="img/sub-menu.svg" alt="image"></a>
+                                <div class="sub-menu-list-wrapper">
+                                    <ul class="sub-menu-list">
+                                        <li class="sub-menu-item"><a>Катeгория 01<img src="img/sub-menu.svg"
+                                                    alt="image"></a>
+                                            <div class="sub-menu-list-wrapper  sub-sub">
+                                                <ul class="sub-menu-list">
+                                                    <li class="sub-sub-menu-item"><a href="#">Подкатeгория 01</a></li>
+                                                    <li class="sub-sub-menu-item"><a href="#">Подкатeгория 02</a></li>
+                                                    <li class="sub-sub-menu-item"><a href="#">Подкатeгория 03</a></li>
+                                                    <li class="sub-sub-menu-item"><a href="#">Подкатeгория 04</a></li>
+                                                    <li class="sub-sub-menu-item"><a href="#">Подкатeгория 05</a></li>
+                                                    <li class="sub-sub-menu-item"><a href="#">Подкатeгория 06</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="sub-menu-item"><a href="#">Катeгория 02</a></li>
+                                        <li class="sub-menu-item"><a href="#">Катeгория 03</a></li>
+                                        <li class="sub-menu-item"><a href="#">Катeгория 04</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="menu-item"><a href="#">Примерка</a></li>
+                            <li class="menu-item"><a href="#">Мероприятия</a></li>
+                            <li class="menu-item"><a href="#">школа стройности</a></li>
+                            <li class="menu-item"><a href="#">блог</a></li>
+                            <li class="menu-item"><a href="#">гарантия и возврат</a></li>
+                            <li class="menu-item"><a href="#">доставка и оплата</a></li>
+                            <li class="menu-item"><a href="#">контакты</a></li>
+                        </ul>
+    
+                        <ul class="check-list">
+                            <li class="check-item">
+                                <p>Выберите Ваш город</p>
+                            </li>
+                            <li class="call-item">
+                                <ul class="city-list row scroll-box">
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                    <li class="city-item col-6 col-sm-4 col-md-3"><a href="#">Москва</a> </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="call-list">
+                            <li class="call-item"><a href="tel:79851141569">+7 (985) 114-15-69</a></li>
+                            <li class="call-item"><a href="tel:79851141569">+7 (985) 114-15-69</a></li>
+                            <li class="call-item"><a href="tel:79851141569">+7 (985) 114-15-69</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <!-- End Header -->
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container container-small">
+            <div class="row">
+                <div class="col-12 col-md-6 hero__photo">
+                    <div class="hero__slider">
+                        <div class="hero__item ">
+                            <div class="hero__box">
+                                <img src="img/photo-header-1.jpg">
+                            </div>
+
+                        </div>
+                        <div class="hero__item ">
+                            <div class="hero__box">
+                                <img src="img/photo-header-1.jpg">
+                            </div>
+
+                        </div>
+                        <div class="hero__item ">
+                            <div class="hero__box">
+                                <img src="img/photo-header-1.jpg">
+                            </div>
+
+                        </div>
+                        <div class="hero__item ">
+                            <div class="hero__box">
+                                <img src="img/photo-header-1.jpg">
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" class="hero__arrowleft" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="20px" viewBox="0 0 20 20" version="1.1">
+                        <defs/>
+                        <g id="SVG👌" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="Arrow-left">
+                                <g id="arrow-left">
+                                    <rect id="20x20" fill-opacity="0" fill="#FFFFFF" x="0" y="0" width="20" height="20"/>
+                                    <path d="M14.0757429,9.4766907 L12.4697588,7.87070664 L13.1798392,7.16062625 L15.9798392,9.9606262 L13.1395176,12.8009478 L12.4395176,12.1009478 L14.0637747,10.4766907 L4,10.4766907 L4,9.4766907 L14.0757429,9.4766907 Z" id="arrow-right" fill="#000000" fill-rule="nonzero"  />
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="hero__arrowright" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+                        <defs/>
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="Arrow-right">
+                                <rect id="24x24" x="0" y="0" width="24" height="24"/>
+                                <polygon id="Shape" fill="#000000" fill-rule="nonzero" points="15.15 13.95 16.78 12.32 6 12.32 6 11.32 16.76 11.32 15.15 9.71 15.85 9 18.68 11.83 15.85 14.66"/>
+                            </g>
+                        </g>
+                    </svg> -->
+                </div>
+                <div class="col-12 col-md-6 hero__description">
+                    <div class="hero__desc">
+                        <h1 class="hero__title">
+                            Профессионально
+                            скорректируем Вашу
+                            <span class="hero__title-red"> <span>талию</span> и ягодицы</span>
+                        </h1>
+                        <span class="hero__subtitle d-none d-md-block">
+                            Трансфер бесплатно
+                        </span>
+                        <a href="#" class="hero__link link-btn">
+                            Узнать подробнее
+                        </a>
+                        <div class="hero__down d-none d-md-flex">
+                            <a href="#product" class="hero__btn">
+                                <i class="fas fa-arrow-down"></i>
+                                <img src="img/Vector.png" class="roll" alt="round-text">
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero -->
+
+    <!-- Product -->
+    <section class="product" id="product">
+        <div class="container container-small">
+
+            <div class="product__header">
+                <h3 class="product__title">
+                    Наши <span>товары</span>
+                </h3>
+                <ul class="product__nav">
+                    <li class="product__nav-item">
+                        <a href="javascript:void(0);" class="active">
+                            Новые поступления
+                        </a>
+                    </li>
+                    <li class="product__nav-item">
+                        <a href="javascript:void(0);">
+                            Хиты продаж
+                        </a>
+                    </li>
+                    <li class="product__nav-item">
+                        <a href="javascript:void(0);">
+                            Распродажа
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="product__slider row">
+                        <div class="product__item col-auto">
+                            <div class="product__card">
+                                <div class="product__box">
+                                    <a href="#">
+                                            <img src="img/product.jpg" alt="product">
+                                    </a>
+                                        
+                                </div>
+                                
+                                <div class="product__desc">
+                                    <span class="product__desc-type">Тип:</span>
+                                    <span class="product__desc-target">Для живота и талии</span>
+                                    <a href="#" class="product__desc-name">
+                                            <span >Корректирующее боди (черное)</span>
+                                    </a>
+                                    
+                                    <span class="product__desc-price">15 990 руб</span>
+                                </div>
+                                <div class="product__btns">
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/hanger.png" alt="hanger">
+                                        </a>
+                                    </div>
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/percentage.png" alt="percentage">
+                                        </a>
+                                    </div>
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/Shopping-cart.png" alt="cart">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__item col-auto">
+                            <div class="product__card">
+                                    <div class="product__box">
+                                        <a href="#">
+                                                <img src="img/product.jpg" alt="product">
+                                        </a>
+                                            
+                                    </div>
+                                
+                                <div class="product__desc">
+                                    <span class="product__desc-type">Тип:</span>
+                                    <span class="product__desc-target">Для живота и талии</span>
+                                    <a href="#" class="product__desc-name">
+                                            <span class="product__desc-name">Корректирующее боди телесного цвета</span>
+                                    </a>
+                                    
+                                    <span class="product__desc-price">15 990 руб</span>
+                                </div>
+                                <div class="product__btns">
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/hanger.png" alt="hanger">
+                                        </a>
+                                    </div>
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/percentage.png" alt="percentage">
+                                        </a>
+                                    </div>
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/Shopping-cart.png" alt="cart">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__item col-auto">
+                            <div class="product__card">
+                                    <div class="product__box">
+                                        <a href="#">
+                                                <img src="img/product.jpg" alt="product">
+                                        </a>
+                                            
+                                    </div>
+                                <div class="product__desc">
+                                    <div class="product__stock">
+                                        Акция
+                                    </div>
+                                    <span class="product__desc-type">Тип:</span>
+                                    <span class="product__desc-target">Для живота и талии</span>
+                                    <a href="#" class="product__desc-name">
+                                            <span class="product__desc-name">Корректирующее боди (черное)</span>
+                                    </a>
+                                    
+                                    <span class="product__desc-price product__desc-pricered"><span
+                                            class="product__desc-cross">15 990</span> 15 990 руб</span>
+                                </div>
+                                <div class="product__btns">
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/hanger.png" alt="hanger">
+                                        </a>
+                                    </div>
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/percentage.png" alt="percentage">
+                                        </a>
+                                    </div>
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/Shopping-cart.png" alt="cart">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__item col-auto">
+                            <div class="product__card">
+                                    <div class="product__box">
+                                        <a href="#">
+                                                <img src="img/product.jpg" alt="product">
+                                        </a>
+                                            
+                                    </div>
+                                <div class="product__desc">
+                                    <span class="product__desc-type">Тип:</span>
+                                    <span class="product__desc-target">Для живота и талии</span>
+                                    <a href="#" class="product__desc-name">
+                                            <span class="product__desc-name">Корректирующее боди (черное)</span>
+                                    </a>
+                                    
+                                    <span class="product__desc-price">15 990 руб</span>
+                                </div>
+                                <div class="product__btns">
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/hanger.png" alt="hanger">
+                                        </a>
+                                    </div>
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/percentage.png" alt="percentage">
+                                        </a>
+                                    </div>
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/Shopping-cart.png" alt="cart">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__item col-auto">
+                            <div class="product__card">
+                                    <div class="product__box">
+                                        <a href="#">
+                                                <img src="img/product.jpg" alt="product">
+                                        </a>
+                                            
+                                    </div>
+                                <div class="product__desc">
+                                    <span class="product__desc-type">Тип:</span>
+                                    <span class="product__desc-target">Для живота и талии</span>
+                                    <a href="#" class="product__desc-name">
+                                            <span class="product__desc-name">Корректирующее боди (черное)</span>
+                                    </a>
+                                    
+                                    <span class="product__desc-price">15 990 руб</span>
+                                </div>
+                                <div class="product__btns">
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/hanger.png" alt="hanger">
+                                        </a>
+                                    </div>
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/percentage.png" alt="percentage">
+                                        </a>
+                                    </div>
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/Shopping-cart.png" alt="cart">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__item col-auto">
+                            <div class="product__card">
+                                    <div class="product__box">
+                                        <a href="#">
+                                                <img src="img/product.jpg" alt="product">
+                                        </a>
+                                           
+                                    </div>
+                                <div class="product__desc">
+                                    <span class="product__desc-type">Тип:</span>
+                                    <span class="product__desc-target">Для живота и талии</span>
+                                    <a href="#" class="product__desc-name">
+                                            <span class="product__desc-name">Корректирующее боди (черное)</span>
+                                    </a>
+                                    
+                                    <span class="product__desc-price">15 990 руб</span>
+                                </div>
+                                <div class="product__btns">
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/hanger.png" alt="hanger">
+                                        </a>
+                                    </div>
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/percentage.png" alt="percentage">
+                                        </a>
+                                    </div>
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/Shopping-cart.png" alt="cart">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__item col-auto">
+                            <div class="product__card">
+                                    <div class="product__box">
+                                        <a href="#">
+                                                <img src="img/product.jpg" alt="product">
+                                        </a>
+                                            
+                                    </div>
+                                <div class="product__desc">
+                                    <span class="product__desc-type">Тип:</span>
+                                    <span class="product__desc-target">Для живота и талии</span>
+                                    <a href="#" class="product__desc-name">
+                                            <span class="product__desc-name">Корректирующее боди (черное)</span>
+                                    </a>
+                                    
+                                    <span class="product__desc-price">15 990 руб</span>
+                                </div>
+                                <div class="product__btns">
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/hanger.png" alt="hanger">
+                                        </a>
+                                    </div>
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/percentage.png" alt="percentage">
+                                        </a>
+                                    </div>
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/Shopping-cart.png" alt="cart">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__item col-auto">
+                            <div class="product__card">
+                                    <div class="product__box">
+                                        <a href="#">
+                                                <img src="img/product.jpg" alt="product">
+                                        </a>
+                                            
+                                    </div>
+                                <div class="product__desc">
+                                    <span class="product__desc-type">Тип:</span>
+                                    <span class="product__desc-target">Для живота и талии</span>
+                                    <a href="#" class="product__desc-name">
+                                            <span class="product__desc-name">Корректирующее боди (черное)</span>
+                                    </a>
+                                    
+                                    <span class="product__desc-price">15 990 руб</span>
+                                </div>
+                                <div class="product__btns">
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/hanger.png" alt="hanger">
+                                        </a>
+                                    </div>
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/percentage.png" alt="percentage">
+                                        </a>
+                                    </div>
+                                    <div class="product__btn">
+                                        <a href="javascript:void(0);">
+                                            <img src="img/Shopping-cart.png" alt="cart">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- End Product -->
+
+    <!-- Guarantee -->
+    <section class="guarantee">
+        <div class="container container-small">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="guarantee__item">
+                        <div class="guarantee__img">
+                            <img src="img/shield.png" alt="guarantee">
+                        </div>
+                        <div class="guarantee__desc">
+                            <h3>100% гарантия</h3>
+                            <span>качества товаров</span>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="guarantee__item">
+                        <div class="guarantee__img guarantee__img-margin">
+                            <img src="img/free-delivery.png" alt="delivery">
+                        </div>
+                        <div class="guarantee__desc">
+                            <h3 class="guarantee__title-bottom">Бесплатная</h3>
+                            <span>доставка по Москве</span>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="guarantee__item">
+                        <div class="guarantee__img guarantee__img-margin">
+                            <img src="img/birthday-and-party.png" alt="birthday">
+                        </div>
+                        <div class="guarantee__desc">
+                            <h3 class="guarantee__desc-red">Подарки</h3>
+                            <span>постоянным клиентам</span>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Guarantee -->
+
+    <!-- Manager -->
+    <section class="manager">
+        <div class="container container-small">
+            <div class="row">
+                <div class="col-12">
+                    <div class="manager__wrapper">
+                        <img src="img/manager-bg.jpg" alt="manager">
+                    </div>
+                    <div class="manager__desc">
+                        <h2 class="manager__title">Хотите купить <span>новинку из последней колекции</span>
+                            в рассрочку?</h2>
+                        <span class="manager__subtitle">Оставьте заявку, и наш менеджер проконсультирует Вас
+                            по выгодным условиям</span>
+                        <a class="manager__link link-btn" href="#">
+                            Получить новинку в рассрочку
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- End Manager -->
+
+    <!-- Testimonials -->
+    <section class="testim">
+        <div class="container container-small">
+            <div class="row">
+                <div class="col-12 col-lg-2">
+                    <div class="testim__description">
+                        <h3 class="testim__title">
+                            <span>Отзывы</span> клиентов
+                        </h3>
+                        <span class="testim__subtitle">Только живые отзывы о нашем белье</span>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-10">
+                    <div class="testim__wrapper">
+                        <div class="testim__slider">
+                            <div class="testim__card">
+                                <div class="testim__desc">
+                                    <p class="testim__text">
+                                        Решив заказать корректирующее белье Silkway на официальном сайт нашей компании,
+                                        вы
+                                        станете обладателем действительно качественной продукции, которая предназначена
+                                        для
+                                        долгосрочного использования.
+                                    </p>
+                                    <div class="testim__name">
+                                        Владислав Германович
+                                    </div>
+                                    <div class="testim__stars">
+                                        <ion-icon name="star-outline" class="testim__star-red testim__star"></ion-icon>
+                                        <ion-icon name="star-outline" class="testim__star-red testim__star"></ion-icon>
+                                        <ion-icon name="star-outline" class="testim__star-red testim__star"></ion-icon>
+                                        <ion-icon name="star-outline" class="testim__star"></ion-icon>
+                                        <ion-icon name="star-outline" class="testim__star"></ion-icon>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="testim__card">
+                                <div class="testim__desc">
+                                    <p class="testim__text">
+                                        Решив заказать корректирующее белье Silkway на официальном сайт нашей компании,
+                                        вы
+                                        станете обладателем действительно качественной продукции, которая предназначена
+                                        для
+                                        долгосрочного использования.
+                                    </p>
+                                    <div class="testim__name">
+                                        Владислав Германович
+                                    </div>
+                                    <div class="testim__stars">
+                                        <ion-icon name="star-outline" class="testim__star-red testim__star"></ion-icon>
+                                        <ion-icon name="star-outline" class="testim__star-red testim__star"></ion-icon>
+                                        <ion-icon name="star-outline" class="testim__star-red testim__star"></ion-icon>
+                                        <ion-icon name="star-outline" class="testim__star"></ion-icon>
+                                        <ion-icon name="star-outline" class="testim__star"></ion-icon>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="testim__card ">
+                                <div class="testim__desc">
+                                    <p class="testim__text">
+                                        Решив заказать корректирующее белье Silkway на официальном сайт нашей компании,
+                                        вы
+                                        станете обладателем действительно качественной продукции, которая предназначена
+                                        для
+                                        долгосрочного использования.
+                                    </p>
+                                    <div class="testim__name">
+                                        Владислав Германович
+                                    </div>
+                                    <div class="testim__stars">
+                                        <ion-icon name="star-outline" class="testim__star-red testim__star"></ion-icon>
+                                        <ion-icon name="star-outline" class="testim__star-red testim__star"></ion-icon>
+                                        <ion-icon name="star-outline" class="testim__star-red testim__star"></ion-icon>
+                                        <ion-icon name="star-outline" class="testim__star"></ion-icon>
+                                        <ion-icon name="star-outline" class="testim__star"></ion-icon>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="testim__card">
+                                <div class="testim__desc">
+                                    <p class="testim__text">
+                                        Решив заказать корректирующее белье Silkway на официальном сайт нашей компании,
+                                        вы
+                                        станете обладателем действительно качественной продукции, которая предназначена
+                                        для
+                                        долгосрочного использования.
+                                    </p>
+                                    <div class="testim__name">
+                                        Владислав Германович
+                                    </div>
+                                    <div class="testim__stars">
+                                        <ion-icon name="star-outline" class="testim__star-red testim__star"></ion-icon>
+                                        <ion-icon name="star-outline" class="testim__star-red testim__star"></ion-icon>
+                                        <ion-icon name="star-outline" class="testim__star-red testim__star"></ion-icon>
+                                        <ion-icon name="star-outline" class="testim__star"></ion-icon>
+                                        <ion-icon name="star-outline" class="testim__star"></ion-icon>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="testim__card">
+                                <div class="testim__desc">
+                                    <p class="testim__text">
+                                        Решив заказать корректирующее белье Silkway на официальном сайт нашей компании,
+                                        вы
+                                        станете обладателем действительно качественной продукции, которая предназначена
+                                        для
+                                        долгосрочного использования.
+                                    </p>
+                                    <div class="testim__name">
+                                        Владислав Германович
+                                    </div>
+                                    <div class="testim__stars">
+                                        <ion-icon name="star-outline" class="testim__star-red testim__star"></ion-icon>
+                                        <ion-icon name="star-outline" class="testim__star-red testim__star"></ion-icon>
+                                        <ion-icon name="star-outline" class="testim__star-red testim__star"></ion-icon>
+                                        <ion-icon name="star-outline" class="testim__star"></ion-icon>
+                                        <ion-icon name="star-outline" class="testim__star"></ion-icon>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="testim__card">
+                                <div class="testim__desc">
+                                    <p class="testim__text">
+                                        Решив заказать корректирующее белье Silkway на официальном сайт нашей компании,
+                                        вы
+                                        станете обладателем действительно качественной продукции, которая предназначена
+                                        для
+                                        долгосрочного использования.
+                                    </p>
+                                    <div class="testim__name">
+                                        Владислав Германович
+                                    </div>
+                                    <div class="testim__stars">
+                                        <ion-icon name="star-outline" class="testim__star-red testim__star"></ion-icon>
+                                        <ion-icon name="star-outline" class="testim__star-red testim__star"></ion-icon>
+                                        <ion-icon name="star-outline" class="testim__star-red testim__star"></ion-icon>
+                                        <ion-icon name="star-outline" class="testim__star"></ion-icon>
+                                        <ion-icon name="star-outline" class="testim__star"></ion-icon>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="testim__card">
+                                <div class="testim__desc">
+                                    <p class="testim__text">
+                                        Решив заказать корректирующее белье Silkway на официальном сайт нашей компании,
+                                        вы
+                                        станете обладателем действительно качественной продукции, которая предназначена
+                                        для
+                                        долгосрочного использования.
+                                    </p>
+                                    <div class="testim__name">
+                                        Владислав Германович
+                                    </div>
+                                    <div class="testim__stars">
+                                        <ion-icon name="star-outline" class="testim__star-red testim__star"></ion-icon>
+                                        <ion-icon name="star-outline" class="testim__star-red testim__star"></ion-icon>
+                                        <ion-icon name="star-outline" class="testim__star-red testim__star"></ion-icon>
+                                        <ion-icon name="star-outline" class="testim__star"></ion-icon>
+                                        <ion-icon name="star-outline" class="testim__star"></ion-icon>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="testim__card">
+                                <div class="testim__desc">
+                                    <p class="testim__text">
+                                        Решив заказать корректирующее белье Silkway на официальном сайт нашей компании,
+                                        вы
+                                        станете обладателем действительно качественной продукции, которая предназначена
+                                        для
+                                        долгосрочного использования.
+                                    </p>
+                                    <div class="testim__name">
+                                        Владислав Германович
+                                    </div>
+                                    <div class="testim__stars">
+                                        <ion-icon name="star-outline" class="testim__star-red testim__star"></ion-icon>
+                                        <ion-icon name="star-outline" class="testim__star-red testim__star"></ion-icon>
+                                        <ion-icon name="star-outline" class="testim__star-red testim__star"></ion-icon>
+                                        <ion-icon name="star-outline" class="testim__star"></ion-icon>
+                                        <ion-icon name="star-outline" class="testim__star"></ion-icon>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="testim__container"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Testimonials -->
+
+    <!-- Colleague -->
+    <section class="colleague">
+        <div class="container container-small">
+            <div class="row">
+                <div class="col-12">
+
+                    <div class="colleague__title">
+                        <h3>Наши <span>сотрудники</span> </h3>
+                    </div>
+                    <div class="colleague__slider row">
+                        <div class="colleague__item col-auto">
+                            <div class="colleague__card">
+                                <div class="colleague__img">
+                                    <img src="img/colleague-1.jpg" alt="colleague">
+                                </div>
+                                <div class="colleague__desc">
+                                    <div class="colleague__name">
+                                        Ольга <br> Олеговна
+                                    </div>
+                                    <div class="colleague__post">
+                                        Консультант
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="colleague__item col-auto">
+                            <div class="colleague__card">
+                                <div class="colleague__img">
+                                    <img src="img/colleague-2.jpg" alt="colleague">
+                                </div>
+                                <div class="colleague__desc">
+                                    <div class="colleague__name">
+                                        Александра <br> Аглаевна
+                                    </div>
+                                    <div class="colleague__post">
+                                        Директор
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="colleague__item col-auto">
+                            <div class="colleague__card">
+
+                                <div class="colleague__img">
+                                    <img src="img/colleague-3.jpg" alt="colleague">
+                                </div>
+                                <div class="colleague__desc">
+                                    <div class="colleague__name">
+                                        Роза <br> Аркадиевна
+                                    </div>
+                                    <div class="colleague__post">
+                                        Старший менеджер
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="colleague__item col-auto">
+                            <div class="colleague__card">
+
+                                <div class="colleague__img">
+                                    <img src="img/colleague-4.jpg" alt="colleague">
+                                </div>
+                                <div class="colleague__desc">
+                                    <div class="colleague__name">
+                                        Аглая <br> Александровна
+                                    </div>
+                                    <div class="colleague__post">
+                                        Заместитель директора
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="colleague__item col-auto">
+                            <div class="colleague__card">
+                                <div class="colleague__img">
+                                    <img src="img/colleague-1.jpg" alt="colleague">
+                                </div>
+                                <div class="colleague__desc">
+                                    <div class="colleague__name">
+                                        Ольга <br> Олеговна
+                                    </div>
+                                    <div class="colleague__post">
+                                        Консультант
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="colleague__item col-auto">
+                            <div class="colleague__card">
+                                <div class="colleague__img">
+                                    <img src="img/colleague-2.jpg" alt="colleague">
+                                </div>
+                                <div class="colleague__desc">
+                                    <div class="colleague__name">
+                                        Александра <br> Аглаевна
+                                    </div>
+                                    <div class="colleague__post">
+                                        Директор
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="colleague__item col-auto">
+                            <div class="colleague__card">
+
+                                <div class="colleague__img">
+                                    <img src="img/colleague-3.jpg" alt="colleague">
+                                </div>
+                                <div class="colleague__desc">
+                                    <div class="colleague__name">
+                                        Роза <br> Аркадиевна
+                                    </div>
+                                    <div class="colleague__post">
+                                        Старший менеджер
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="colleague__item col-auto" >
+                            <div class="colleague__card">
+
+                                <div class="colleague__img">
+                                    <img src="img/colleague-4.jpg" alt="colleague">
+                                </div>
+                                <div class="colleague__desc">
+                                    <div class="colleague__name">
+                                        Аглая <br> Александровна
+                                    </div>
+                                    <div class="colleague__post">
+                                        Заместитель директора
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Colleague -->
+
+    <!-- Contact -->
+    <section class="contact">
+
+        <div class="contact__wrapper">
+            <div class="contact__contact flex-item">
+                <div class="contact__desc flex-item-inner">
+                    <div class="contact__header">
+                        <h3 class="contact__subtitle">
+                            Контакты
+                        </h3>
+                        <div class="contact__nav">
+                            <ul class="contact__list">
+                                <li class="contact__item">
+                                    <a href="javascript:void(0);" class="contact__link active">
+                                        Москва 
+                                    </a>
+                                </li>
+                                <li class="contact__item">
+                                    <a href="javascript:void(0);" class="contact__link">
+                                        Санкт-Петербург
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="contact__text">
+                        <div class="contact__side">
+                            <div class="contact__phone">
+                                <span class="contact__letter">Т:</span>
+                                +7(495)799-08-96
+                            </div>
+                            <div class="contact__email">
+                                <span class="contact__letter">E:</span>
+                                info@silk-way.ru
+                            </div>
+                            <div class="contact__routine">
+                                <span class="contact__letter contact__letter-w">W:</span>
+                                пн-пт: с 10:00 до 19:00
+                            </div>
+                        </div>
+                        <div class="contact__side contact__side-right">
+                            <div class="contact__address">
+                                <span class="contact__letter contact__letter-margin">A:</span>
+                                Россия,115088,г.Москва, Шарикоподшипниковская,д.13, с.2,3 этаж, офис 11
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="contact__form form flex-item">
+                <div class="flex-item-inner">
+                    <div class="form__title">
+                        <span>Свяжитесь</span> с нами
+                    </div>
+                    <span class="form__question">
+                        Задайте нам вопрос
+                    </span>
+                    <form action="POST">
+                        <input type="text" name="" id="" placeholder="Имя" required>
+                        <input type="email" name="" id="" placeholder="E-mail" required>
+                        <input type="text" class="phone" name="" id="" placeholder="Номер телефона" required>
+                        <input type="text" id="" placeholder="Вопрос" required>
+                        <input type="submit" class="form__link link-btn" value="Отправить">
+
+                    </form>
+
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <!-- End Contact -->
+
+    <!-- Certificate -->
+    <section class="cert">
+        <div class="container container-small ">
+            <div class="row">
+                <div class="col-12">
+                    <div class="cert__top">
+                        <h3 class="cert__title">
+                            <span>Сертификаты</span> качества продукции
+                        </h3>
+                    </div>
+                </div>
+
+            </div>
+            <div class="cert__slider row">
+                <div class="cert__item col-auto">
+                    <div class="cert__cert">
+                            <a data-fancybox="gallery" href="img/cert-best.png"><img src="img/certificate.jpg" alt="certificate"></a>
+                        
+                    </div>
+                </div>
+                <div class="cert__item col-auto">
+                    <div class="cert__cert">
+                            <a data-fancybox="gallery" href="img/cert-best.png"><img src="img/certificate.jpg" alt="certificate"></a>
+                    </div>
+                </div>
+                <div class="cert__item col-auto">
+                    <div class="cert__cert">
+                            <a data-fancybox="gallery" href="img/cert-best.png"><img src="img/certificate.jpg" alt="certificate"></a>
+                    </div>
+                </div>
+                <div class="cert__item col-auto">
+                    <div class="cert__cert">
+                            <a data-fancybox="gallery" href="img/cert-best.png"><img src="img/certificate.jpg" alt="certificate"></a>
+                    </div>
+                </div>
+                <div class="cert__item col-auto">
+                    <div class="cert__cert">
+                            <a data-fancybox="gallery" href="img/cert-best.png"><img src="img/certificate.jpg" alt="certificate"></a>
+                    </div>
+                </div>
+                <div class="cert__item col-auto">
+                    <div class="cert__cert">
+                            <a data-fancybox="gallery" href="img/cert-best.png"><img src="img/certificate.jpg" alt="certificate"></a>
+                    </div>
+                </div>
+                <div class="cert__item col-auto">
+                    <div class="cert__cert">
+                            <a data-fancybox="gallery" href="img/cert-best.png"><img src="img/certificate.jpg" alt="certificate"></a>
+                    </div>
+                </div>
+                <div class="cert__item col-auto">
+                    <div class="cert__cert">
+                            <a data-fancybox="gallery" href="img/cert-best.png"><img src="img/certificate.jpg" alt="certificate"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Certificate -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container container-small">
+            <div class="row">
+                <div class="col-md-6 col-lg-3 col-12">
+                    <div class="footer__cataloge">
+                        <h4 class="footer__title">Каталог</h4>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Антицеллюлитное бельё
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Корректирующее бельё
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Моделирующее бельё
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Мужское корректирующее бельё
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Распродажа корректирующего белья
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-12">
+                    <div class="footer__menu">
+                        <h4 class="footer__title">Меню</h4>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Каталог
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Примерка на дому
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Мероприятия
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Школа стройности
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Блог
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Гарантии и возврат
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Доставка и оплата
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">
+                                    Контакты
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-12">
+                    <div class="footer__contact">
+                        <h4 class="footer__title">Контакты</h4>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="#" class="footer__link footer__link-flex">
+                                    <span class="footer__letter">A:</span> <span
+                                        class="footer__address">Россия,115088,г.Москва, Шарикоподшипниковская,д13, с.2,
+                                        3 этаж,офис</span>
+
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="tel:+7(495)799-08-96" class="footer__link">
+                                    <span class="footer__letter footer__letter-middle">T:</span> +7(495)799-08-96
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="mailto:info@silk-way.ru" class="footer__link">
+                                    <span class="footer__letter footer__letter-middle">E:</span> info@silk-way.ru
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="javascript:void(0);" class="footer__link">
+                                    <span class="footer__letter footer__letter-small">W:</span> пн-пт: с 10:00 до 19:00
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-12">
+                    <div class="footer__mailing">
+                        <h4 class="footer__title">Рассылка</h4>
+                        <p class="footer__text">
+                            Подпишитесь на новости и акции Silkway будьте в курсе новинок и спецпредложений!
+                        </p>
+                        <input type="email" name="" id="" placeholder="E-mail">
+                        <a href="#" class="footer__btn link-btn">Подписаться</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="footer__copyrights">
+                        <span>&copy; Copyrights 2019</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- End Footer -->
+
+    <!-- <div class="pop-up-slider pop-up-mark passive-slider">
+        <div class="cover"></div>
+        <div class="pop-up col-10 col-md-7 col-xl-6">
+            <div class="wrapper-close-pop-up">
+                <div class="close-pop-up">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+    
+            <div class="pop-up-slider-wrapper">
+                <div class="pop-up-slider-content cert__slider-popup">
+                    <div>
+                        <div class="pop-up-slider-content-slide">
+                            <img src="img/cert-best.png">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="pop-up-slider-content-slide">
+                            <img src="img/cert-best.png">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="pop-up-slider-content-slide">
+                            <img src="img/cert-best.png">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="pop-up-slider-content-slide">
+                            <img src="img/cert-best.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </div> -->
+
+
+    <!-- Popup Search -->
+    <div class="pop-up-search pop-up-mark content passive">
+        <div class="cover"></div>
+        <div class="pop-up col-10 col-lg-8">
+    
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="search">
+                        <div class="input-block d-flex align-items-center justify-content-between">
+                            <div class="button-search d-flex align-items-center justify-content-center">
+                                <span><object type="image/svg+xml" data="img/search-button.svg"></object></span>
+                            </div>
+                            <label for="search" class="d-none"></label>
+                            <input type="text"
+                                   id="search"
+                                   placeholder="Поиск по каталогу">
+                            <div class="wrapper-close-pop-up">
+                                <div class="close-pop-up">
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="search-list scroll-box">
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                            <li class="search-item"><a href="#" class="underline">search1</a><a href="#"><img
+                                    src="img/arrow-to.png" alt="image"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    <!-- End Popup Search -->
+
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!-- Slick slider -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+
+    <!-- Mask input -->
+    <script src="js/jquery.maskedinput.min.js"></script>
+
+    <!-- Ion icons -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+    <!-- Fancy Box -->
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+    <!-- Script -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

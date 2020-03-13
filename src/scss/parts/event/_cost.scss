@@ -1,0 +1,135 @@
+.cost {
+    margin-bottom: 59px;
+
+    &__container {
+        padding-left: 35px;
+    }
+
+    &__title {
+        margin-bottom: 21px;
+        font-weight: 700;
+        font-family: 'Playfair Display', serif;
+        font-size: 24px;
+        color: #ED1D23;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+    &__item {
+        margin-bottom: 16px;
+        display: flex;
+        align-items: center;
+        padding-bottom: 29px;
+        padding-top: 23px;
+        padding-left: 23px;
+        border: 1px solid #ccc;
+    }
+
+    &__name {
+        
+        margin-right: 35px;
+        font-size: 14px;
+
+        span:first-child {
+            margin-bottom: -3px;
+            display: block;
+            font-weight: 700;
+            font-size: 18px;
+            color: #111;
+        }
+
+        &-last {
+            margin-right: 8px;
+        }
+    }
+
+    &__price {
+        font-size: 18px;
+        letter-spacing: 1px;
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        color: #ED1D23;
+    }
+
+    &__box {
+        padding: 29px 20px 35px 25px;
+        background-color: #f7f7f7;
+        border: 1px solid #ccc;
+    }
+
+    &__reservation {
+        margin-bottom: 30px;
+    }
+
+    &__subtitle {
+        font-weight: 700;
+        font-size: 18px;
+        color: #111111;
+    }
+
+    &__input {
+        margin-bottom: 42px;
+    }
+
+    input {
+        width: 100%;
+        padding-bottom: 9px;
+        // margin-bottom: 25px;
+        background-color: inherit;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid #111;
+        -webkit-appearance: none;
+        -webkit-border-radius: 0px;
+        border-radius:0;
+
+        &:focus {
+            padding-bottom: 8px;
+            border-bottom: 2px solid #111111;
+            -webkit-appearance: none;
+            -webkit-border-radius: 0px;
+            border-radius:0;
+        }
+    }
+
+    input.form__link {
+        font-family: 'tt_normsbold', sans-serif;
+        width: 125px;
+        font-size: 12px;
+        font-weight: 700;
+        color: #ED1D23;
+        padding-bottom: 7px;
+        background-color: inherit;
+        border-bottom: 2px solid #ED1D23;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 1px;
+
+        &:hover {
+            color: #bc0005;
+            border-bottom: 2px solid #bc0005;
+        }
+    }
+}
+
+@media all and (max-width: 767px) {
+    .cost {
+
+        &__box {
+            padding: 30px;
+        }
+
+        &__container {
+            padding-left: 0;
+        }
+    }
+}
+
+@media all and (max-width: 577px) {
+    .cost {
+
+        &__title {
+            font-size: 22px;
+        }
+    }
+}

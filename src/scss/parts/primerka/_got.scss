@@ -1,0 +1,126 @@
+.got {
+    margin-bottom: 183px;
+
+    &__desc {
+        padding-top: 60px;
+        padding-left: 31px;
+
+    }
+
+    &__title {
+        margin-bottom: 38px;
+        font-family: 'Playfair Display', serif;
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        color: #ed1d23;
+        text-transform: uppercase;
+    }
+
+    &__list {
+        margin-bottom: 41px;
+        padding-left: 20px;
+        list-style: none;
+    }
+
+    &__item {
+        position: relative;
+        margin-bottom: 28px;
+        color: #111111;
+        line-height: 28px;
+
+        span {
+            font-weight: 700;
+        }
+
+        &:before {
+            content: '.';
+            position: absolute;
+            left: -16px;
+            top: -10px;
+            font-size: 39px;
+            color: #ed1d23;
+        }
+    }
+
+    &__link {
+        font-family: 'tt_normsbold', sans-serif;
+        padding-left: 6px; 
+        padding-bottom: 5px;
+        font-weight: 700;
+        font-size: 12px;
+        letter-spacing: 1px;
+        color: #ed1d23;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-bottom: 2px solid #ed1d23;
+
+        &:hover {
+            color: #bc0005;
+            border-bottom: 2px solid #bc0005;
+            text-decoration: none;
+        }
+    }
+}
+
+@media all and (max-width: 1199px) {
+    .got {
+
+        &__desc {
+            padding-top: 0;
+            padding-left: 0;
+        }
+
+        &__title {
+            margin-bottom: 25px;
+        }
+
+        &__item {
+            margin-bottom: 20px;
+        }
+
+        &__link {
+            font-size: 11px;
+        }
+    }
+}
+
+@media all and (max-width: 991px) {
+    .got {
+        margin-bottom: 80px;
+
+        &__photo {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media all and (max-width: 575px) {
+    .got {
+
+        &__title {
+            font-size: 20px;
+            letter-spacing: 1px;
+        }
+
+        &__link {
+            font-size: 10px;
+        }
+    }
+}
+
+@media all and (max-width: 424px) {
+    .got {
+
+        &__link {
+            letter-spacing: normal;
+        }
+    }
+
+    .p-show {
+
+        &__title {
+            font-size: 20px;
+        }
+    }
+}

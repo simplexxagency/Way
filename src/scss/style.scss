@@ -1,0 +1,61 @@
+// common
+@import 'common/fonts';
+@import 'common/main';
+
+// Elements
+@import 'elements/popup';
+@import 'elements/breadcrumb';
+@import 'elements/pagination';
+@import 'elements/politic';
+@import 'elements/404';
+
+//Parts
+@import 'parts/header';
+@import 'parts/hero';
+@import 'parts/product';
+@import 'parts/guarantee';
+@import 'parts/manager';
+@import 'parts/testimonials';
+@import 'parts/colleague';
+@import 'parts/contact';
+@import 'parts/certificate';
+@import 'parts/footer';
+
+// Cataloge_1
+@import 'parts/cataloge_1/cataloge';
+@import 'parts/cataloge_1/choose';
+@import 'parts/cataloge_1/function';
+
+// Cataloge_2
+@import 'parts/cataloge_2/filters';
+
+// Product
+@import 'parts/product/desc';
+
+// Fitting
+@import 'parts/primerka/fitting';
+@import 'parts/primerka/cause';
+@import 'parts/primerka/got';
+@import 'parts/primerka/show';
+@import 'parts/primerka/athome';
+
+// Blog
+@import 'parts/blog/blog';
+
+// News
+@import 'parts/news/news';
+
+// Event
+@import 'parts/event/e-header';
+@import 'parts/event/e-video';
+@import 'parts/event/when';
+@import 'parts/event/where';
+@import 'parts/event/about';
+@import 'parts/event/whom';
+@import 'parts/event/cost';
+@import 'parts/event/who';
+@import 'parts/event/v-testim';
+@import 'parts/event/e-testim';
+@import 'parts/event/company';
+@import 'parts/event/e-contact';
+

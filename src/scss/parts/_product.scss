@@ -1,0 +1,350 @@
+.product {
+    padding-top: 150px;
+    position: relative;
+    margin-bottom: 100px;
+
+    // &__slider {
+    //     cursor: pointer;
+    // }
+
+    &__item {
+        outline: 0;
+        flex: 0 0 auto;
+    }
+
+    &__header {
+        padding-bottom: 7px;
+        margin-bottom: 58px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #d4d4d4;
+        
+    }
+
+    &__title {
+        font-size: 24px;
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        letter-spacing: 1px;
+        color: #111111;
+        text-transform: uppercase;
+
+        span {
+            color: #ED1D23;
+        }
+    }
+
+    &__box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 440px;
+        list-style: none;
+
+        &-item {
+
+            a {
+                font-family: 'tt_normsbold', sans-serif;
+                font-weight: 700;
+                font-size: 16px;
+                color: #111111;
+
+                &:hover {
+                    color: #696969;
+                    text-decoration: none;
+                }
+
+                &.active {
+                    padding-bottom: 15px;
+                    border-bottom: 2px solid #111;
+                }
+
+            }
+        }
+    }
+
+    &__arrowright,
+    &__arrowleft {
+        position: absolute;
+        height: 55px;
+        width: 55px;
+        color: #656565;
+        background-color: #F3F3F3;
+        cursor: pointer;
+
+        &::before {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        &:hover {
+            color: #EC151B;
+        }
+    }
+
+    &__arrowleft {
+        top: 175px;
+        left: -77px;
+    }
+
+    &__arrowright {
+        top: 175px;
+        right: -80px;
+    }
+
+    &__card {
+        position: relative;
+        // width: 255px;
+        margin-right: 0;
+        border: 1px solid #ccc;
+    }
+
+    &__btns {
+        display: flex;
+        justify-content: space-around;
+        border-top: 1px solid #ccc;
+    }
+
+    &__btn {
+        width: 100%;
+        height: 42px;
+        padding: 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: ease all .5s;
+
+        a {
+            outline: 0;
+        }
+
+        &-hanger {
+            background: url('../img/hanger.png') center no-repeat;
+            
+            &:hover {
+                background: url('../img/hanger-hover.png') center no-repeat;
+                         }
+        }
+
+        &-perc {
+            background: url('../img/percentage.png') center no-repeat;
+
+            &:hover {
+                background: url('../img/percentage-hover.png') center no-repeat;
+            }
+        }
+
+        &-cart {
+            background: url('../img/Shopping-cart.png') center no-repeat;
+
+            &:hover {
+                background: url('../img/Shopping-cart-hover.png') center no-repeat;
+            }
+        }
+        
+        &:not(:last-child) {
+            border-right: 1px solid #ccc;
+        }
+
+        &:hover {
+            cursor: pointer;
+            background-color: #f5f5f5;
+        }
+
+        img {
+            width: auto;
+        }
+    }
+
+    &__desc {
+        padding: 15px 10px 18px 18px;
+        color: #111111;
+
+        &-type {
+            font-size: 12px;
+            color: #999999;
+        }
+
+        &-target {
+            font-size: 12px;
+            margin-bottom: 9px;
+            display: inline-block;
+        }
+
+        &-name {
+            font-size: 14px;
+            display: block;
+            line-height: 16px; 
+            min-height: 33px;
+            color: #111;
+        }
+
+        &-price {
+            font-family: 'Playfair Display', serif;
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        &-pricered {
+            color: #ED1D23;
+        }
+
+        &-cross {
+            text-decoration: line-through;
+            color: #999999;
+        }
+    }
+
+    &__stock {
+        position: absolute;
+        width: 54px;
+        height: 54px;
+        background-color: #ED1D23;
+        line-height: 54px;
+        top: 7px;
+        left: 11px;
+        text-align: center;
+        color: #fff;
+    }
+
+    .slick-track {
+        display: flex;
+    }
+
+
+    ::-webkit-scrollbar {
+        -webkit-appearance: none;
+    }
+    
+    ::-webkit-scrollbar:vertical {
+        width: 12px;
+    }
+    
+    ::-webkit-scrollbar:horizontal {
+        height: 12px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background-color: rgba(0, 0, 0, .5);
+        border-radius: 10px;
+        border: 2px solid #ffffff;
+    }
+    
+    ::-webkit-scrollbar-track {
+        border-radius: 10px;  
+        background-color: #ffffff; 
+    }
+}
+
+@media all and (max-width: 1300px) {
+    .product {
+
+        &__arrowleft {
+            z-index: 1;
+            left: -13px;
+        }
+
+        &__arrowright {
+            right: 0;
+        }
+    }
+}
+
+@media all and (max-width: 1199px) {
+    .product {
+
+        &__arrowright {
+            right: 0;
+        }
+
+        &__arrowleft {
+            left: 0;
+        }
+    }
+}
+
+@media all and (max-width: 767px) {
+    .product {
+        padding-top: 40px;
+    }
+}
+
+@media all and (max-width: 575px) {
+    .product {
+        padding-top: 30px;
+        margin-bottom: 80px;
+
+        &__title {
+            font-size: 22px;
+        }
+
+        &__nav {
+            justify-content: space-around;
+        }
+    }
+
+}
+
+@media all and (max-width: 767px) {
+    .product {
+
+        &__header {
+            display: block;
+        }
+
+        &__title {
+            font-size: 22px;
+        }
+
+        &__nav {
+            justify-content: space-around;
+
+            &-item {
+
+                a.active {
+                    padding-bottom: 12px;
+                    border-bottom: none;
+                }
+                
+            }
+        }
+
+        &__card {
+            margin: 0 auto;
+        }
+
+    }
+}
+
+@media all and (max-width: 575px) {
+    .product {
+
+        // &__slider,
+        // &__card {
+        //     margin-right: 0;
+        // }
+
+        &__nav {
+            flex-direction: column;
+            align-items: flex-start;
+            width: auto;
+
+            &-item a {
+                margin-bottom: 10px;
+            }
+        }
+
+        // &__card {
+        //     width: 300px;
+        // }
+    }
+}

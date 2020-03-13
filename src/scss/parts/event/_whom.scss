@@ -1,0 +1,132 @@
+.whom {
+    margin-bottom: 52px;
+
+    &__container {
+        padding-left: 33px;
+    }
+
+    &__title {
+        margin-bottom: 25px;
+        font-weight: 700;
+        font-family: 'Playfair Display', serif;
+        font-size: 24px;
+        color: #ED1D23;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+    &__box {
+        position: relative;
+        border: 1px solid #ccc;
+        // background: url('../../../img/whom-bg.jpg') center no-repeat;
+    }
+
+    &__wrap {
+        // padding-left: 45px;
+        // padding-top: 34px;
+        position: absolute;
+        top: 33px;
+        left: 46px;
+    }
+
+    &__img-wrap {
+        opacity: 0.1;
+        border: 1px solid #ccc;
+        background: linear-gradient(top, #dedede, #ffffff);
+
+        img {
+            height: 376px;
+        }
+    }
+
+    &__subtitle {
+        display: flex;
+        align-items: center;
+        margin-bottom: 27px;
+
+        span {
+            font-weight: 700;
+            font-size: 18px;
+            color: #111;
+        }
+    }
+
+    &__box-right {
+        padding-left: 36px;
+    }
+
+    &__img {
+        margin-right: 23px;
+    }
+
+    &__list {
+        padding-left: 20px;
+    }
+
+    &__item {
+        position: relative;
+        margin-bottom: 14px;
+        color: #111;
+
+        &:after {
+            content: '.';
+            position: absolute;
+            top: -34px;
+            left: -19px;
+            font-size: 42px;
+            color: #ed1d23;
+        }
+    }
+
+    &__img {
+        width: 55px;
+    }
+
+
+}
+
+@media all and (max-width: 1199px) {
+    .whom {
+
+        &__img-wrap {
+            display: none;
+        }
+
+        &__wrap {
+            padding: 20px;
+            position: static;
+            border: 1px solid #ccc;
+            background-color: #f7f7f7;
+        }
+
+        &__box {
+            border: none;
+
+            &-item {
+                margin-bottom: 20px;
+            }
+
+            &-right {
+                padding-left: 0;
+            }
+        }
+    }
+}
+
+@media all and (max-width: 767px) {
+    .whom {
+
+        &__container {
+            padding-left: 0;
+        }
+    }
+}
+
+@media all and (max-width: 577px) {
+    .whom {
+
+        &__title {
+            font-size: 22px;
+        }
+    }
+}

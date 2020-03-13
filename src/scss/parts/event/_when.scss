@@ -1,0 +1,117 @@
+.when {
+    margin-bottom: 62px;
+
+    &__box {
+        margin-left: 32px;
+        padding: 30px 30px 15px 49px;
+        border: 1px solid #ccc;
+        background-color: #f7f7f7;
+    }
+
+    &__title {
+        margin-bottom: 9px;
+        font-weight: 700;
+        font-family: 'Playfair Display', serif;
+        font-size: 24px;
+        color: #ED1D23;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+    &__data {
+        font-size: 12px;
+        font-weight: 900;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    &__form {
+        padding-top: 3px;
+        padding-left: 9px;
+
+        input.phone {
+            margin-bottom: 29px;
+        }
+    }
+
+    form {
+        width: 435px;
+
+        input {
+            width: 100%;
+            padding-bottom: 9px;
+            margin-bottom: 25px;
+            background-color: inherit;
+            outline: none;
+            border: none;
+            border-bottom: 1px solid #111;
+            -webkit-appearance: none;
+            -webkit-border-radius: 0px;
+            border-radius:0;
+    
+            &:focus {
+                padding-bottom: 8px;
+                border-bottom: 2px solid #111111;
+                -webkit-appearance: none;
+                -webkit-border-radius: 0px;
+                border-radius:0;
+            }
+        }
+    
+        input.form__link {
+            width: 125px;
+            font-size: 12px;
+            font-weight: 700;
+            color: #ED1D23;
+            padding-bottom: 7px;
+            background-color: inherit;
+            border-bottom: 2px solid #ED1D23;
+            text-transform: uppercase;
+            text-decoration: none;
+            letter-spacing: 2px;
+    
+            &:hover {
+                color: #bc0005;
+                border-bottom: 2px solid #bc0005;
+            }
+        }
+    }
+}
+
+@media all and (max-width: 1199px) {
+    .when {
+
+        form {
+            width: auto;
+        }
+    }
+}
+
+
+@media all and (max-width: 767px) {
+    .when {
+
+        &__box {
+            padding: 30px;
+            margin-left: 0;
+        }
+
+        &__form {
+            padding-left: 0;
+            padding-top: 0;
+        }
+
+        &__data {
+            margin-bottom: 15px;
+        }
+    }
+}
+
+@media all and (max-width: 577px) {
+    .when {
+
+        &__title {
+            font-size: 22px;
+        }
+    }
+}

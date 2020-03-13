@@ -1,0 +1,328 @@
+.hero {
+    height: 100vh;
+    padding-top: 160px;
+    // margin-bottom: 60px;
+    position: relative;
+
+    &__slider {
+        cursor: pointer;
+
+        & .slick-dots {
+            position: absolute;
+            left: -74px;
+            top: 38%;
+            display: flex;
+            flex-direction: column;
+
+            button {
+                position: absolute;
+                width: 4px;
+                height: 4px;
+                background-color: #D4D4D4;
+                padding: 0;
+
+                &::before {
+                    content: '';
+                }
+
+                &:hover {
+                    background-color: #EC151B;
+                }
+            }
+
+            li.slick-active button {
+                position: absolute;
+                left: -2px;
+                width: 8px;
+                height: 8px;
+                background-color: #EC151B;
+            }
+        }
+    }
+
+    .slick-dotted.slick-slider {
+        margin-bottom: 0;
+    }
+
+    &__slider svg {
+
+        &:hover {
+            fill: #EC151B;
+        }
+    }
+
+
+    &__arrowright {
+        bottom: 0;
+        left: 50px;
+    }
+
+    &__arrowleft {
+        bottom: 0;
+        left: 0;
+    }
+
+    &__box {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        height: 100%;
+
+        img {
+            object-fit: cover;
+        }
+    }
+
+    &__desc {
+        position: relative;
+        padding-left: 46px;
+    }
+
+    &__title {
+        margin-bottom: 20px;
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        font-size: 42px;
+        letter-spacing: 2px;
+        line-height: 57px;
+        color: #111111;
+        text-transform: uppercase;
+        
+        &-red {
+            color: #ED1D23;
+
+            span {
+                margin-right: 125px;
+            }
+        }
+    }
+
+    &__subtitle {
+        margin-bottom: 37px;
+        display: block;
+        font-family: 'disruptors_scriptregular';
+        font-size: 40px;
+    }
+
+    &__link {
+        display: inline-block;
+        margin-left: 3px;
+        position: relative;
+        z-index: 2;
+        font-family: 'tt_normsbold', sans-serif;
+        color: #ED1D23;
+        font-size: 12px;
+        border-bottom: 2px solid #ED1D23;
+        text-transform: uppercase;
+        line-height: 26px;
+        letter-spacing: 1px;
+        
+    }
+
+    &__down {
+        display: flex;
+        justify-content: flex-end;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        transform: translate(7px, 80%);
+    }
+
+    &__description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__btn {
+        position: relative;
+        width: 137px;    
+        height: 137px;
+
+        .fas {
+            position: absolute;
+            z-index: 2;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #ED1D23;
+            font-size: 21px;
+            transition: 1s;
+        }
+    }
+
+    .roll {
+        -webkit-animation: 10s linear 0s normal none infinite running roll;
+        animation: 10s linear 0s normal none infinite running roll;
+    }
+
+    &__slider,
+    .slick-list.draggable,
+    .slick-track {
+        height: 100%;
+    }
+}
+
+
+
+@-webkit-keyframes roll {
+    0% {
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+    100% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes roll {
+    0% {
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+    100% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .hero {
+
+        &__photo {
+            height: calc( 100vh - 160px );
+        }
+    }
+}
+
+@media all and (max-width: 1199px) {
+    .hero {
+        padding-top: 60px;
+
+        &__title {
+            font-size: 36px;
+
+            &-red span {
+                margin-right: 0;
+            }
+        }
+
+        &__desc {
+            // padding-top: 40px;
+            padding-left: 46px;
+        }
+    }
+
+}
+
+@media all and (max-width: 991px) {
+    .hero {
+
+        &__title {
+            font-size: 28px;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+
+        &__subtitle {
+            margin-bottom: 12px;
+        }
+
+        &__desc {
+            // padding-top: 30px;
+            padding-left: 0;
+        }
+
+        &__btn {
+            display: block;
+            width: 90px;
+            height: 90px;
+        }
+
+        // &__down {
+        //     top: -50px;
+        // }
+    }
+
+    &__btn {
+
+        .fas {
+            font-size: 16px;
+
+        }
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1199px) {
+    .hero {
+
+        &__photo {
+            height: calc( 100vh - 60px );
+        }
+
+        .slick-slide img {
+            height: 100%;
+            width: auto;
+            object-fit: cover;
+        }
+
+        
+    }
+}
+
+@media all and (min-width: 768px) {
+    .hero {
+
+        &__box {
+
+            img {
+                object-fit: cover;
+                height: 100%;
+            }
+        }
+    }
+}
+@media all and (max-width: 767px) {
+    .hero {
+        padding-top: 60px;
+        // margin-bottom: 20px;
+
+        &__desc {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        &__title {
+            font-size: 22px;
+        }
+
+        
+
+        &__photo {
+            height: 60vh;
+            // display: flex;
+            // align-items: flex-end;
+        }
+
+        .container {
+            padding-left: 0;
+            padding-right: 0;
+            max-width: 100%;
+        }
+    }
+}
+
+@media all and (max-width: 576px) {
+    .hero {
+        
+        &__desc {
+            padding-top: 40px;
+        }
+
+        &__title {
+            line-height: 33px;
+        }
+    }
+}
+
